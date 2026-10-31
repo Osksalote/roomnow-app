@@ -37408,14 +37408,14 @@ n=A.hf(o.h(p,0))
 j.a=null
 m=t.RU.a(o.h(p,1))
 j.a=m.b
-l=103<m.a
+l=104<m.a
 if($.aYt&&new A.an(Date.now(),0,!1).cw($.c5i()).a>216e8)$.aYt=!1
 if($.aYt&&!b&&!l){s=1
 break}k=a.$0()
 if(k==null||k.e==null){s=1
 break}if(n==null){if(b)A.c_s(k,A.C("No internet. Try again later."))
 s=1
-break}if(n<=103){if(b)A.c_s(k,A.C("You have the newest NamStay")+" (0.2.0 \xb7 103)")
+break}if(n<=104){if(b)A.c_s(k,A.C("You have the newest NamStay")+" (0.2.0 \xb7 104)")
 s=1
 break}$.aYt=!0
 $.cgg=new A.an(Date.now(),0,!1)
@@ -121412,7 +121412,7 @@ q.push(B.a4R)
 q.push(B.S)
 q.push(B.a4T)
 q.push(B.S)
-q.push(A.aV(A.aJ(!1,l,l,l,!0,l,l,l,!0,l,B.adB,l,l,l,l,l,new A.apc(a),!1,l,l,l,l,l,A.j("NamStay 0.2.0 \xb7 "+A.C("version")+" 103",l,l,l,l,l,l,l,l),l,B.c8O,l,B.by,l),l,l,l,l))
+q.push(A.aV(A.aJ(!1,l,l,l,!0,l,l,l,!0,l,B.adB,l,l,l,l,l,new A.apc(a),!1,l,l,l,l,l,A.j("NamStay 0.2.0 \xb7 "+A.C("version")+" 104",l,l,l,l,l,l,l,l),l,B.c8O,l,B.by,l),l,l,l,l))
 if($.jq!=null)B.i.G(q,A.b([B.cy,A.cW(B.xc,B.c2N,A.aoo(),l)],m))
 q.push(B.YC)
 q.push(A.c9(B.xa,B.Zn,new A.apd(a),l))
@@ -126675,7 +126675,7 @@ if(m!=null&&B.p.al(m).length!==0)B.i.G(n,A.b([A.j(m,s,s,s,s,B.aI,s,s,s),B.S],o))
 if(r)B.i.G(n,A.b([new A.p(u.j3,s,s,s,s,s),B.S],o))
 n.push(A.j(A.C(u.bC),s,s,s,s,s,s,s,s))
 n.push(B.aD)
-n.push(A.j("0.2.0 \xb7 103 \u2192 "+this.c,s,s,s,s,B.ay,s,s,s))
+n.push(A.j("0.2.0 \xb7 104 \u2192 "+this.c,s,s,s,s,B.ay,s,s,s))
 n=A.P(n,B.Y,B.r,B.a2,0,B.x)
 o=A.b([],o)
 if(q)o.push(A.b5(new A.p("Later",s,s,s,s,s),s,s,new A.aYu(a),s,s))
@@ -134211,7 +134211,7 @@ if(s==null){throw"DeferredLoading state error: code with hash '"+a+"' was not lo
 v.deferredInitialized[a]=true},
 deferredLibraryParts:{admin:[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],owner:[0,1,2,3,4,5,6,16,17,18,19,7,8,9,20,21,22,23,24,25,26,10,11,12,13,27,28,29,30,14,31],explore:[0,1,4,23,32],"explore.1":[0,1,4,23,32],team:[2,16,21],repairs:[0,3,5,16,18,11,28],grow:[0,1,2,3,4,5,6,18,19,8,9,24,25,12,29],finish:[0,1,4,33],"team.1":[1,2,3,5,6,16,17,18,19,7,8,20,21,22,24,10,27],desk:[2,3,6,17,19,7,9,22,25,26,13,30],docs:[17,20,26,34]},
 deferredPartUris:["main.dart.js_12.part.js","main.dart.js_14.part.js","main.dart.js_27.part.js","main.dart.js_30.part.js","main.dart.js_11.part.js","main.dart.js_16.part.js","main.dart.js_15.part.js","main.dart.js_28.part.js","main.dart.js_24.part.js","main.dart.js_26.part.js","main.dart.js_19.part.js","main.dart.js_18.part.js","main.dart.js_31.part.js","main.dart.js_21.part.js","main.dart.js_17.part.js","main.dart.js_8.part.js","main.dart.js_33.part.js","main.dart.js_3.part.js","main.dart.js_39.part.js","main.dart.js_47.part.js","main.dart.js_6.part.js","main.dart.js_32.part.js","main.dart.js_48.part.js","main.dart.js_42.part.js","main.dart.js_45.part.js","main.dart.js_46.part.js","main.dart.js_2.part.js","main.dart.js_41.part.js","main.dart.js_35.part.js","main.dart.js_44.part.js","main.dart.js_43.part.js","main.dart.js_40.part.js","main.dart.js_50.part.js","main.dart.js_49.part.js","main.dart.js_1.part.js"],
-deferredPartHashes:["dz5I2cSE0aR3HOvgfcwSudl4Zbg=","xQUVLr7bOwcnxbZUIE6qeOjiTSI=","oftnIXSy3frHygrRH2oYXrndZSo=","VejiUZmdwSDw9hwEizfi6U9QW5Q=","s2lBMKcv0VeIeRxOW0O40/xCDgI=","p8dzxZVVPmdnobOLLPB0mQoyMYQ=","veVommUEYsdBi/cuxUJbAUJfetM=","J8QW3PAM6KsfJWnF0BCFGZz76Dk=","86pvcGU7AKbaxvv3C4G1bqv0KGE=","2yWNvtwKr46Z1/wjO3zmiGPTOR0=","AVMV8U8OItuw9C0K5qzYHNq3M0w=","TUaIuRECVM7EX5BuYJpaYxsOfoI=","OEsl63vMvzvADoD5Pid5IPmupfM=","KdzwqnBJQ15uy6+AwRezJ9P3oWk=","8vDsjXk47fwzC4T8nyIzrsBpdAA=","b2KkYBQYBNUwjNy7OG9esbIQovA=","MOLaX4wq+Sd9HP1NWGeK3Jo0xLk=","6apFebBcE/WBpjQJ4XrObSUkYrA=","lCn51WucIA2jGchdwHheuJPtLTA=","JXwK+wofxawPROG4sReXmu6hIvM=","3EPt+tQCrktoCMcHeuO4We9JMXI=","v+Mv6MjeojXHmO/ygsoKqp9GoDQ=","gmMCUDrOrtT1+/UYh/q/jjWOxHE=","csgy4JdoHZq8HXvPjddWvLYvx4I=","yL+aRFzP2lSGmxEmS3lOp909rog=","o6PM5bFl5VVUNRKZpIyNCTDysgs=","d6Mdo+Uwu8vw/Hje5FaqYTNyInA=","km9+EgUjuE8gpOY9uYEA7tmGzOE=","gl4d7dROw2zvX3jA8aqT0qn1wM0=","8fqAqMJ4Rr1TeqJqDrkrt7kgK5U=","yENA0jaE36fC+gnV0/Zzw6f07I4=","DwHdfSk8K3yQjHMink8LuK9hBDY=","gl7W+Iy6vXUJHT5Z8C53l2m8fAc=","qWcN5wnwFvB+EilU0QPH0ToM9/g=","6cHmbSAy5lAEMUk9AFIYRt1drvw="],
+deferredPartHashes:["dz5I2cSE0aR3HOvgfcwSudl4Zbg=","xQUVLr7bOwcnxbZUIE6qeOjiTSI=","oftnIXSy3frHygrRH2oYXrndZSo=","VejiUZmdwSDw9hwEizfi6U9QW5Q=","s2lBMKcv0VeIeRxOW0O40/xCDgI=","p8dzxZVVPmdnobOLLPB0mQoyMYQ=","veVommUEYsdBi/cuxUJbAUJfetM=","J8QW3PAM6KsfJWnF0BCFGZz76Dk=","86pvcGU7AKbaxvv3C4G1bqv0KGE=","2yWNvtwKr46Z1/wjO3zmiGPTOR0=","AVMV8U8OItuw9C0K5qzYHNq3M0w=","TUaIuRECVM7EX5BuYJpaYxsOfoI=","OEsl63vMvzvADoD5Pid5IPmupfM=","KdzwqnBJQ15uy6+AwRezJ9P3oWk=","8vDsjXk47fwzC4T8nyIzrsBpdAA=","pyB96aRQJIWdWyaVQWRhqG1E5j8=","MOLaX4wq+Sd9HP1NWGeK3Jo0xLk=","6apFebBcE/WBpjQJ4XrObSUkYrA=","lCn51WucIA2jGchdwHheuJPtLTA=","JXwK+wofxawPROG4sReXmu6hIvM=","3EPt+tQCrktoCMcHeuO4We9JMXI=","v+Mv6MjeojXHmO/ygsoKqp9GoDQ=","gmMCUDrOrtT1+/UYh/q/jjWOxHE=","csgy4JdoHZq8HXvPjddWvLYvx4I=","yL+aRFzP2lSGmxEmS3lOp909rog=","o6PM5bFl5VVUNRKZpIyNCTDysgs=","d6Mdo+Uwu8vw/Hje5FaqYTNyInA=","km9+EgUjuE8gpOY9uYEA7tmGzOE=","gl4d7dROw2zvX3jA8aqT0qn1wM0=","8fqAqMJ4Rr1TeqJqDrkrt7kgK5U=","yENA0jaE36fC+gnV0/Zzw6f07I4=","DwHdfSk8K3yQjHMink8LuK9hBDY=","gl7W+Iy6vXUJHT5Z8C53l2m8fAc=","qWcN5wnwFvB+EilU0QPH0ToM9/g=","6cHmbSAy5lAEMUk9AFIYRt1drvw="],
 typeUniverse:{eC:new Map(),tR:{},eT:{},tPV:{},sEA:[]},
 mangledGlobalNames:{y:"int",a7:"double",ay:"num",h:"String",M:"bool",bL:"Null",B:"List",a3:"Object",u:"Map",c5:"JSObject"},
 mangledNames:{},
