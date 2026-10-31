@@ -18,7 +18,7 @@
   <!-- Start connecting early (faster first opening on slow internet) -->
   <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://rgialahzshpnareeizzk.supabase.co" crossorigin>
-  <link rel="preload" href="main.dart.js?v=37c62bf8" as="script">
+  <link rel="preload" href="main.dart.js?v=8b403249" as="script">
   <title>NamStay</title>
   <style>
     body{margin:0;background:#F3F4F2}
@@ -31,6 +31,15 @@
 <body>
   <div id="splash"><img src="icons/Icon-192.png" alt=""><div>NamStay</div><small>Loading…</small><small id="slow" style="display:none;max-width:280px;text-align:center">Slow internet: only the first opening takes longer. After that NamStay opens at once, even with weak signal.</small></div>
   <script>
+    // "Update" in the app: forget the saved copy of the old version and open the new one.
+    window.namstayUpdate = function () {
+      var sw = navigator.serviceWorker ? navigator.serviceWorker.getRegistrations() : Promise.resolve([]);
+      sw.then(function (rs) { return Promise.all(rs.map(function (r) { return r.update(); })); })
+        .then(function () { return window.caches ? caches.keys() : []; })
+        .then(function (ks) { return Promise.all(ks.filter(function (k) { return k.indexOf('namstay-app-') === 0; }).map(function (k) { return caches.delete(k); })); })
+        .catch(function () {})
+        .then(function () { location.reload(); });
+    };
     window.addEventListener('flutter-first-frame', function(){ var s=document.getElementById('splash'); if(s) s.remove(); });
     setTimeout(function(){ var s=document.getElementById('slow'); if(s) s.style.display='block'; }, 6000);
     // Keep a copy of the app on this device so it opens fast next time (not on the test server on this computer).
@@ -39,6 +48,6 @@
     }
   </script>
   <script src="push.js"></script>
-  <script src="flutter_bootstrap.js?v=37c62bf8" async></script>
+  <script src="flutter_bootstrap.js?v=8b403249" async></script>
 </body>
 </html>
