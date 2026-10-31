@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var A,B,C={
-a_4(d){var x
+a_5(d){var x
 if(d==null)x="-"
 else x=d<60?""+B.n.aB(d)+" min":""+B.n.aM(d,60)+" h "+B.n.aB(B.n.aQ(d,60))+" min"
 return x},
@@ -23,4 +23,4 @@ C=a.updateHolder(c[19],C)
 D=c[46]
 var z=a.updateTypes([])
 var y={g:A.aa("f"),b:A.aa("@"),k:A.aa("r<f,@>?")};(function constants(){D.xf=new A.aT(null,null,null,"Details (optional)",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)})()};
-(a=>{a["0riFeF7ZcTJTQlMCz5JACdnT9KE="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["nfjk8Yh3yRvztFmyujru2gPFrKc="]=a.current})($__dart_deferred_initializers__);

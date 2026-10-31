@@ -6,7 +6,7 @@ for(;;)switch(x){case 0:m=d.h(0,"places")
 if(m==null){m=y.b
 m=A.D(m,m)}u=A.cX(y.B.a(m),y.w,y.b)
 x=3
-return A.d(E.a0k(A.bT(u.h(0,"logo_path"))),$async$aol)
+return A.d(E.a0l(A.bT(u.h(0,"logo_path"))),$async$aol)
 case 3:t=f
 s=F.m.aM(A.bJ(d.h(0,"check_out")).cz(A.bJ(d.h(0,"check_in"))).a,864e8)
 m=d.h(0,"total_nad")
@@ -17,7 +17,7 @@ p=s===0?r:r/s
 m=u.h(0,"vat_number")
 o=F.o.av(J.aL(m==null?"":m))
 n=B.uA("Invoice "+A.e(d.h(0,"ref")))
-m=B.aK0(!1,G.oA,null,C.hV,null,null)
+m=B.aK1(!1,G.oB,null,C.hV,null,null)
 n.qi(new B.rB(m,new D.bLq(u,o,t,q,r,d,s,p)))
 v=n.fG()
 x=1
@@ -57,10 +57,10 @@ if(f.h(0,"phone")!=null)e.push(B.bB("Tel "+A.e(f.h(0,"phone")),l,l,l))
 w=n.b
 v=w.length!==0
 if(v)e.push(B.bB("VAT no. "+w,l,l,l))
-e=A.b([E.ayx(E.y7(e,C.hD))],x)
+e=A.b([E.ayx(E.y8(e,C.hD))],x)
 w=n.c
-if(w!=null)e.push(new B.ND(B.bWj(w),C.C0,90,90))
-e=E.aQX(e,C.hD)
+if(w!=null)e.push(new B.ND(B.bWk(w),C.C0,90,90))
+e=E.aQY(e,C.hD)
 w=n.d
 u=n.e
 if(w>=u)t=v?"TAX INVOICE / RECEIPT":"INVOICE / RECEIPT"
@@ -83,22 +83,22 @@ t=B.dv(l,l,l,l,l,l,l,l,l,C.b0,l,l,l,l,C.b9,l,!0,l,l,l,l)
 o.push(B.td(C.Zh,A.I([1,C.ew,2,C.ew,3,C.ew],y.e,y.k),l,e,1,t,["Description","Nights","Rate","Amount"]))
 o.push(new B.dO(l,12,l))
 x=A.b([],x)
-if(v)F.h.I(x,E.c0w(u,11))
+if(v)F.h.I(x,E.c0x(u,11))
 e=v?"Total incl. VAT "+("N$ "+A.aX(h).O(u)):"Total "+("N$ "+A.aX(h).O(u))
 x.push(B.bB(e,B.dv(l,l,l,l,l,l,l,l,l,C.b0,l,l,13,l,C.b9,l,!0,l,l,l,l),l,l))
 x.push(B.bB("Paid "+("N$ "+A.aX(h).O(w)),l,l,l))
 if(u>w)x.push(B.bB("Still to pay "+("N$ "+A.aX(h).O(u-w)),B.dv(l,l,l,l,l,l,l,l,l,C.b0,l,l,l,l,C.b9,l,!0,l,l,l,l),l,l))
-o.push(new B.u3(C.ew,l,l,E.y7(x,C.Dp)))
-o.push(E.bP4())
+o.push(new B.u3(C.ew,l,l,E.y8(x,C.Dp)))
+o.push(E.bP5())
 e=f.h(0,g)
 if(J.aL(e==null?"":e).length!==0)o.push(B.bB(J.aL(f.h(0,g)),l,l,l))
 o.push(new B.dO(l,6,l))
 o.push(B.bB("Made with NamStay",G.ZT,l,l))
-return E.y7(o,C.hD)},
+return E.y8(o,C.hD)},
 $S:z+0}
 D.bLp.prototype={
 $1(d){return d!=null},
 $S:61};(function inheritance(){var x=a.inheritMany
 x(A.h6,[D.bLq,D.bLp])})()
 var y={k:A.aa("u4"),r:A.aa("E<A<@>>"),u:A.aa("E<dn>"),B:A.aa("r<@,@>"),w:A.aa("f"),o:A.aa("ep"),b:A.aa("@"),e:A.aa("w")}};
-(a=>{a["IvaRm1Rx/+WlMA/vpA+O1fcuE30="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["+sJJBjLZ3R+aEIXQJC0d3KqDZiw="]=a.current})($__dart_deferred_initializers__);

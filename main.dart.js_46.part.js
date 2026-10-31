@@ -1,20 +1,20 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,E,H,I,K,L,M,N,C={
-c9v(d,e){return new C.r6(d,e,null)},
-c8T(d){return new C.uI(d,null)},
+c9w(d,e){return new C.r6(d,e,null)},
+c8U(d){return new C.uI(d,null)},
 r6:function r6(d,e,f){this.c=d
 this.d=e
 this.a=f},
-aBl:function aBl(d){this.a=d},
-aBp:function aBp(d){this.a=d},
+aBm:function aBm(d){this.a=d},
 aBq:function aBq(d){this.a=d},
-aBo:function aBo(d){this.a=d},
-aBm:function aBm(d,e,f,g){var _=this
+aBr:function aBr(d){this.a=d},
+aBp:function aBp(d){this.a=d},
+aBn:function aBn(d,e,f,g){var _=this
 _.a=d
 _.b=e
 _.c=f
 _.d=g},
-aBn:function aBn(d,e){this.a=d
+aBo:function aBo(d,e){this.a=d
 this.b=e},
 tG:function tG(d,e,f,g){var _=this
 _.c=d
@@ -25,7 +25,7 @@ uI:function uI(d,e){this.c=d
 this.a=e},
 az6:function az6(d){this.a=d},
 az7:function az7(d){this.a=d},
-chl(){return A.oC("repairs","")},
+chm(){return A.oC("repairs","")},
 mm:function mm(d,e,f){this.c=d
 this.d=e
 this.a=f},
@@ -60,33 +60,33 @@ w=1
 break
 case 1:return A.l(u,v)}})
 return A.m($async$ar9,v)},
-a0l(d){var w=0,v=A.n(x.h),u,t,s,r
-var $async$a0l=A.j(function(e,f){if(e===1)return A.k(f,v)
+a0m(d){var w=0,v=A.n(x.h),u,t,s,r
+var $async$a0m=A.j(function(e,f){if(e===1)return A.k(f,v)
 for(;;)switch(w){case 0:s=$.M().b
 s===$&&A.a()
 t=x.z
 r=x.h
 w=3
-return A.d(s.a4("place_coach",A.I(["p_place",d],x.N,t),t),$async$a0l)
+return A.d(s.a4("place_coach",A.I(["p_place",d],x.N,t),t),$async$a0m)
 case 3:u=r.a(f)
 w=1
 break
 case 1:return A.l(u,v)}})
-return A.m($async$a0l,v)},
-a0o(d,e){var w=0,v=A.n(x.D),u,t,s,r
-var $async$a0o=A.j(function(f,g){if(f===1)return A.k(g,v)
+return A.m($async$a0m,v)},
+a0p(d,e){var w=0,v=A.n(x.D),u,t,s,r
+var $async$a0p=A.j(function(f,g){if(f===1)return A.k(g,v)
 for(;;)switch(w){case 0:s=$.M().b
 s===$&&A.a()
 t=s.bf("guest_requests").f0("*, bookings(guest_name, guest_phone, rooms(name))").bJ("place_id",d)
 if(e)t=t.NZ("status",["open","working"])
 r=A
 w=3
-return A.d((!e?A.i9(t.f4(t.f9("created_at","gte."+new A.aq(Date.now(),0,!1).d8(-2592e9).lz().mj())),t.$ti.c):t).dK("created_at",!1).qP(300),$async$a0o)
+return A.d((!e?A.i9(t.f4(t.f9("created_at","gte."+new A.aq(Date.now(),0,!1).d8(-2592e9).lz().mj())),t.$ti.c):t).dK("created_at",!1).qP(300),$async$a0p)
 case 3:u=r.aD(g,!0,x.P)
 w=1
 break
 case 1:return A.l(u,v)}})
-return A.m($async$a0o,v)}},D,G,F
+return A.m($async$a0p,v)}},D,G,F
 J=c[1]
 A=c[0]
 B=c[2]
@@ -109,35 +109,35 @@ else if(B.o.n(r,"room(s) have no photo"))s.a=new E.fY(u.c,3,t)
 else if(B.o.n(r,"photo"))s.a=new E.fY(u.c,4,t)
 else if(B.o.n(r,"description"))s.a=new E.fY(u.c,1,t)
 else if(B.o.n(r,"price")||B.o.n(r,"offers"))s.a=new E.fY(u.c,3,t)
-else if(B.o.n(r,"share")||B.o.n(r,"few travellers")){A.bRg(d,u.d,y.b+u.c)
+else if(B.o.n(r,"share")||B.o.n(r,"few travellers")){A.bRh(d,u.d,y.b+u.c)
 return}else{w=B.o.n(r,"request")||B.o.n(r,"problems took")
 v=u.c
 if(w)s.a=new C.mm(v,!1,t)
-else s.a=new C.uI(v,t)}s=A.aN(new C.aBl(s),!1,t,x.z)
+else s.a=new C.uI(v,t)}s=A.aN(new C.aBm(s),!1,t,x.z)
 A.J(d,!1).ak(s)},
 t(d){var w=null
-return A.bH(A.bR(A.b([D.agF],x.p),w,w,w,w,w,w,w,w,D.bRW,w,w),w,new A.bl(new C.aBp(this),new C.aBq(this),B.bO,w,x.W),w,w)}}
+return A.bH(A.bR(A.b([D.agF],x.p),w,w,w,w,w,w,w,w,D.bRW,w,w),w,new A.bl(new C.aBq(this),new C.aBr(this),B.bO,w,x.W),w,w)}}
 C.tG.prototype={
-t(d){var w=null,v=A.b([I.yD(A.i(this.c,w,w,w,w,D.bOD,w,w,w),B.fX),A.i(this.d,2,w,w,w,B.dV,w,w,w)],x.p),u=this.e
-if(u.length!==0)v.push(A.i(u,1,w,w,w,B.ed,w,w,w))
-return A.b_(new A.H(B.e2,A.R(v,B.Y,B.cB,B.r,0,B.x),w),w,w,w,w)}}
+t(d){var w=null,v=A.b([I.uL(A.i(this.c,w,w,w,w,D.bOE,w,w,w),B.fX),A.i(this.d,2,w,w,w,B.dV,w,w,w)],x.p),u=this.e
+if(u.length!==0)v.push(A.i(u,1,w,w,w,B.ec,w,w,w))
+return A.b_(new A.H(B.e2,A.R(v,B.Y,B.cJ,B.r,0,B.x),w),w,w,w,w)}}
 C.uI.prototype={
 DU(d,e){var w=null,v=A.cI(A.i(d,w,w,w,w,w,w,w,w),w,130),u=e==null,t=u?w:B.n.aB(A.ai(e))
-return new A.H(K.ow,A.ap(A.b([v,new A.ta(t,18,w,w),B.bp,A.i(u?"-":A.e(e),w,w,w,w,B.a3,w,w,w)],x.p),B.A,B.q,B.r,0,w),w)},
+return new A.H(K.ox,A.ap(A.b([v,new A.ta(t,18,w,w),B.bp,A.i(u?"-":A.e(e),w,w,w,w,B.a4,w,w,w)],x.p),B.A,B.q,B.r,0,w),w)},
 t(d){var w=null
 return A.bH(A.bR(A.b([D.agB],x.p),w,w,w,w,w,w,w,w,D.bRn,w,w),w,new A.bl(new C.az6(this),new C.az7(this),A.b([new A.cc("notifications","user_id",A.el())],x.k),w,x.W),w,w)}}
 C.mm.prototype={
 t(d){return new A.bl(new C.auZ(this),new C.av_(this),A.b([new A.cc("guest_requests","place_id",this.c)],x.k),null,x.w)}}
 var z=a.updateTypes(["kY()","ab<@>()"])
-C.aBl.prototype={
+C.aBm.prototype={
 $1(d){var w=this.a.a
 w.toString
 return w},
 $S:20}
-C.aBp.prototype={
-$0(){return C.a0l(this.a.c)},
-$S:60}
 C.aBq.prototype={
+$0(){return C.a0m(this.a.c)},
+$S:60}
+C.aBr.prototype={
 $3(a3,a4,a5){var w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=null,d="recommended",a0=" in the last 7 days",a1="avg_price",a2="town_avg_price"
 if(a4==null)return G.vK
 w=a4.h(0,"tips")
@@ -149,7 +149,7 @@ t=a4.h(0,"town_occupancy_30")
 w=J.c(a4.h(0,d),!0)?B.CY:B.an
 s=J.c(a4.h(0,d),!0)?B.lZ:D.ac8
 s=A.bq(s,J.c(a4.h(0,d),!0)?B.Da:B.V,e,32)
-r=A.i(J.c(a4.h(0,d),!0)?"You are on the Recommended list":"Not on the Recommended list yet",e,e,e,e,B.a3,e,e,e)
+r=A.i(J.c(a4.h(0,d),!0)?"You are on the Recommended list":"Not on the Recommended list yet",e,e,e,e,B.a4,e,e,e)
 w=A.b_(A.aM(!1,e,e,e,!0,e,e,e,!0,e,s,e,e,e,e,e,e,!1,e,e,e,e,e,A.i(J.c(a4.h(0,d),!0)?"Keep rooms clean and answer guests fast to stay there.":"You need "+A.e(a4.h(0,"need_for_recommended"))+" more good rating(s) (4 or 5 stars).",e,e,e,e,e,e,e,e),e,r,e,e,e),e,w,e,e)
 s=a4.h(0,"views_30")
 s=A.e(s==null?0:s)
@@ -168,15 +168,15 @@ j=a4.h(0,"ratings")
 j=A.e(j==null?0:j)
 i=a4.h(0,"service")==null?"-":A.e(a4.h(0,"service"))+"\u2605"
 h=x.p
-h=A.b([w,D.bFe,H.yS(1.35,A.b([new C.tG(s,"travellers looked at your place",r+a0,e),new C.tG(q,"bookings",p+a0,e),new C.tG(o+"%","rooms full",n,e),new C.tG(m,"your average price",l,e),new C.tG(k,"private guest rating",j+" rating(s)",e),new C.tG(i,"service rate","only you see this",e)],h),8,8,170,B.e9,!0),D.bEV],h)
+h=A.b([w,D.bFe,H.EM(1.35,A.b([new C.tG(s,"travellers looked at your place",r+a0,e),new C.tG(q,"bookings",p+a0,e),new C.tG(o+"%","rooms full",n,e),new C.tG(m,"your average price",l,e),new C.tG(k,"private guest rating",j+" rating(s)",e),new C.tG(i,"service rate","only you see this",e)],h),8,8,170,B.e9,!0),D.bEV],h)
 for(w=this.a,g=0;g<v.length;g=f){f=g+1
-h.push(new A.c7(e,e,e,B.b_,A.aM(!1,e,e,e,!0,e,e,e,!0,e,A.fS(B.V,A.i(""+f,e,e,e,e,D.bOx,e,e,e),14),e,e,e,e,e,new C.aBm(w,a3,v,g),!1,e,e,e,e,e,e,e,A.i(v[g],e,e,e,e,e,e,e,e),e,B.bH,e),e))}h.push(B.S)
-h.push(A.c9(B.x8,D.bTY,new C.aBn(w,a3),e))
+h.push(new A.c7(e,e,e,B.b_,A.aM(!1,e,e,e,!0,e,e,e,!0,e,A.fS(B.V,A.i(""+f,e,e,e,e,D.bOy,e,e,e),14),e,e,e,e,e,new C.aBn(w,a3,v,g),!1,e,e,e,e,e,e,e,A.i(v[g],e,e,e,e,e,e,e,e),e,B.bH,e),e))}h.push(B.S)
+h.push(A.c9(B.x8,D.bTY,new C.aBo(w,a3),e))
 h.push(B.S)
 h.push(D.bSa)
-return A.mN(A.bg(h,e,B.aK,e,B.N,!1),new C.aBo(a5))},
+return A.mN(A.bg(h,e,B.aK,e,B.N,!1),new C.aBp(a5))},
 $S:122}
-C.aBo.prototype={
+C.aBp.prototype={
 $0(){var w=0,v=A.n(x.H),u,t=this
 var $async$$0=A.j(function(d,e){if(d===1)return A.k(e,v)
 for(;;)switch(w){case 0:u=t.a.$0()
@@ -185,13 +185,13 @@ break
 case 1:return A.l(u,v)}})
 return A.m($async$$0,v)},
 $S:1}
-C.aBm.prototype={
+C.aBn.prototype={
 $0(){var w=this
 return w.a.at4(w.b,w.c[w.d])},
 $S:0}
-C.aBn.prototype={
+C.aBo.prototype={
 $0(){var w=this.a
-return A.bRg(this.b,w.d,y.b+w.c)},
+return A.bRh(this.b,w.d,y.b+w.c)},
 $S:0}
 C.az6.prototype={
 $0(){return C.ar9(this.a.c)},
@@ -222,11 +222,11 @@ o=A.b([D.bEG,B.ah,o,new A.c6("What guests said ("+p+")",k,k)],n)
 if(p===0)o.push(D.bRj)
 for(w=x.s,m=0;m<p;++m){l=v[m]
 u=l.h(0,j)
-u=J.CT(u==null?5:u,2)?B.b5:k
+u=J.CS(u==null?5:u,2)?B.b5:k
 t=A.ho(l.h(0,j))
 s=l.h(0,"guest")
 s=A.e(s==null?"Guest":s)
-t=A.b([A.ap(A.b([new A.ta(t,18,k,k),B.bp,new A.cP(1,B.aV,A.i(s+(l.h(0,"room")==null?"":" \xb7 "+A.e(l.h(0,"room"))),k,k,k,k,B.a3,k,k,k),k),A.i(A.ay(l.h(0,"at")),k,k,k,k,B.aB,k,k,k)],n),B.A,B.q,B.r,0,k)],n)
+t=A.b([A.ap(A.b([new A.ta(t,18,k,k),B.bp,new A.cP(1,B.aV,A.i(s+(l.h(0,"room")==null?"":" \xb7 "+A.e(l.h(0,"room"))),k,k,k,k,B.a4,k,k,k),k),A.i(A.ay(l.h(0,"at")),k,k,k,k,B.aB,k,k,k)],n),B.A,B.q,B.r,0,k)],n)
 if(l.h(0,"liked")!=null)B.h.I(t,A.b([B.aG,A.ap(A.b([D.ag2,B.cw,new A.cP(1,B.aV,A.i(l.h(0,"liked"),k,k,k,k,k,k,k,k),k)],n),B.Y,B.q,B.r,0,k)],n))
 if(l.h(0,d)!=null)B.h.I(t,A.b([B.aG,A.ap(A.b([D.afr,B.cw,new A.cP(1,B.aV,A.i(l.h(0,d),k,k,k,k,L.Av,k,k,k),k)],n),B.Y,B.q,B.r,0,k)],n))
 if(l.h(0,i)!=null||l.h(0,h)!=null){s=A.b([],w)
@@ -237,7 +237,7 @@ if(l.h(0,f)!=null)s.push("value "+A.e(l.h(0,f)))
 t.push(new A.H(B.dK,A.i(B.h.aL(s," \xb7 "),k,k,k,k,B.aB,k,k,k),k))}o.push(new A.c7(u,k,k,B.b_,new A.H(B.ay,A.R(t,B.Y,B.q,B.r,0,B.x),k),k))}return A.bg(o,k,B.aK,k,B.N,!1)},
 $S:116}
 C.auZ.prototype={
-$0(){return C.a0o(this.a.c,!1)},
+$0(){return C.a0p(this.a.c,!1)},
 $S:13}
 C.av_.prototype={
 $3(a5,a6,a7){var w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f=null,e="Guest orders",d="Complaints & requests",a0="To attend",a1="Being fixed",a2=this.a,a3=J.d5(a6,new C.auM(a2)),a4=A.N(a3,a3.$ti.i("z.E"))
@@ -249,14 +249,14 @@ u=A.N(new A.ak(a4,new C.auR(),a3),w)
 B.h.e3(u,new C.auS())
 t=A.N(new A.ak(a4,new C.auT(),a3),w)
 B.h.e3(t,new C.auU())
-s=new A.ak(u,A.cmU(),A.ae(u).i("ak<1>")).gv(0)
+s=new A.ak(u,A.cmV(),A.ae(u).i("ak<1>")).gv(0)
 w=Date.now()
 r=A.b5("yyyy-MM-dd").O(new A.aq(w,0,!1))
 w=A.ae(t)
 q=new A.ak(t,new C.auV(r),w.i("ak<1>")).gv(0)
 p=x.t
 o=p.i("ak<z.E>")
-n=A.N(new A.ak(new A.dt(new A.at(t,F.cmT(),w.i("at<1,w?>")),p),new C.auW(),o),o.i("z.E"))
+n=A.N(new A.ak(new A.dt(new A.at(t,F.cmU(),w.i("at<1,w?>")),p),new C.auW(),o),o.i("z.E"))
 m=n.length===0?f:B.n.aB(B.h.im(n,new C.auX())/n.length)
 l=new C.av0(a7)
 w=a2.d
@@ -273,21 +273,21 @@ h=A.b([new A.bG(o+" "+i,B.aF,B.aS,f),new A.bG(h+" "+u.length,B.U,B.an,f)],j)
 if(w)h.push(new A.bG("Today "+A.aY(new A.ak(a4,new C.auY(r),a3).dI(0,0,new C.auP())),B.U,B.an,f))
 if(s>0)h.push(new A.bG("Late "+s,B.a_,B.b5,f))
 h.push(new A.bG("Done today "+q,B.U,B.an,f))
-if(m!=null)h.push(new A.bG("Average fix "+A.bIB(m),B.aR,B.ej,f))
+if(m!=null)h.push(new A.bG("Average fix "+A.bIB(m),B.aR,B.ei,f))
 a3=A.bW(B.ac,h,B.ag,4,6)
 o=w?"New":a0
 o=A.lX(o+" ("+v.length+")")
 i=w?"Preparing":a1
 i=A.lX(i+" ("+u.length+")")
 h=w?"Delivered":"Attended"
-p=A.bR(k,f,f,new A.Ap(A.R(A.b([new A.H(B.el,a3,f),A.Hi(f,f,!1,f,f,f,f,A.b([o,i,A.lX(h+" ("+t.length+")")],j))],j),B.A,B.q,B.r,0,B.x),D.bHP,f),f,f,f,f,f,p,f,f)
+p=A.bR(k,f,f,new A.Ao(A.R(A.b([new A.H(B.ek,a3,f),A.Hi(f,f,!1,f,f,f,f,A.b([o,i,A.lX(h+" ("+t.length+")")],j))],j),B.A,B.q,B.r,0,B.x),D.bHP,f),f,f,f,f,f,p,f,f)
 h=A.b([],j)
 if(!w)h.push(A.b_(new A.H(B.ay,A.R(A.b([D.bXt,A.dl(D.m1,D.bV3,new C.auQ(a2,a5),f)],j),B.Y,B.q,B.r,0,B.x),f),f,B.an,D.a9j,f))
 if(v.length===0)h.push(new A.cE(B.ke,w?"No new orders.":"Nothing to attend. Well done!",f,f))
-for(a2=v.length,g=0;g<v.length;v.length===a2||(0,A.F)(v),++g)h.push(new A.H(B.el,new F.AC(v[g],a7,f),f))
+for(a2=v.length,g=0;g<v.length;v.length===a2||(0,A.F)(v),++g)h.push(new A.H(B.ek,new F.AB(v[g],a7,f),f))
 a2=A.bg(h,f,B.a1,f,B.N,!1)
 a3=l.$2(u,w?"No orders being prepared.":"Nothing being fixed right now.")
-return A.ux(A.bH(p,f,A.wn(A.b([a2,a3,l.$2(t,w?"No orders delivered in the last 30 days.":"Nothing attended in the last 30 days.")],j)),f,f),0,3)},
+return A.ux(A.bH(p,f,A.wo(A.b([a2,a3,l.$2(t,w?"No orders delivered in the last 30 days.":"Nothing attended in the last 30 days.")],j)),f,f),0,3)},
 $S:970}
 C.auM.prototype={
 $1(d){return this.a.d?J.c(d.h(0,"kind"),"order"):!J.c(d.h(0,"kind"),"order")},
@@ -303,8 +303,8 @@ C.auR.prototype={
 $1(d){return J.c(d.h(0,"status"),"working")},
 $S:3}
 C.auS.prototype={
-$2(d,e){var w=A.xp(e)?1:0
-return w-(A.xp(d)?1:0)},
+$2(d,e){var w=A.xq(e)?1:0
+return w-(A.xq(d)?1:0)},
 $S:47}
 C.auT.prototype={
 $1(d){return J.c(d.h(0,"status"),"done")||J.c(d.h(0,"status"),"cancelled")},
@@ -331,7 +331,7 @@ C.av0.prototype={
 $2(d,e){var w,v,u,t,s=null
 if(d.length===0)w=new A.cE(B.ke,e,s,s)
 else{w=A.b([],x.p)
-for(v=d.length,u=this.a,t=0;t<d.length;d.length===v||(0,A.F)(d),++t)w.push(new F.AC(d[t],u,s))
+for(v=d.length,u=this.a,t=0;t<d.length;d.length===v||(0,A.F)(d),++t)w.push(new F.AB(d[t],u,s))
 w=A.bg(w,s,B.ay,s,B.N,!1)}return w},
 $S:971}
 C.auY.prototype={
@@ -343,16 +343,16 @@ $2(d,e){var w=e.h(0,"total_nad")
 return d+A.ar(w==null?0:w)},
 $S:55}
 C.auQ.prototype={
-$0(){return A.Kg(this.b,C.cmS(),new C.auL(this.a),x.z)},
+$0(){return A.Kg(this.b,C.cmT(),new C.auL(this.a),x.z)},
 $S:0}
 C.auL.prototype={
 $0(){A.kt("repairs")
-return M.ccD(this.a.c)},
+return M.ccE(this.a.c)},
 $S:z+0};(function installTearOffs(){var w=a._static_0
-w(C,"cmS","chl",1)})();(function inheritance(){var w=a.inheritMany
+w(C,"cmT","chm",1)})();(function inheritance(){var w=a.inheritMany
 w(A.a3,[C.r6,C.tG,C.uI,C.mm])
-w(A.h6,[C.aBl,C.aBq,C.az7,C.av_,C.auM,C.auN,C.auR,C.auT,C.auV,C.auW,C.auY])
-w(A.j6,[C.aBp,C.aBo,C.aBm,C.aBn,C.az6,C.auZ,C.auQ,C.auL])
+w(A.h6,[C.aBm,C.aBr,C.az7,C.av_,C.auM,C.auN,C.auR,C.auT,C.auV,C.auW,C.auY])
+w(A.j6,[C.aBq,C.aBp,C.aBn,C.aBo,C.az6,C.auZ,C.auQ,C.auL])
 w(A.k1,[C.auO,C.auS,C.auU,C.auX,C.av0,C.auP])})()
 A.kr(b.typeUniverse,JSON.parse('{"r6":{"a3":[],"h":[]},"uI":{"a3":[],"h":[]},"tG":{"a3":[],"h":[]},"mm":{"a3":[],"h":[]}}'))
 var y={b:"https://osksalote.github.io/roomnow-app/?place="}
@@ -374,8 +374,8 @@ D.bEG=new A.o3(B.bn,B.q,B.r,B.A,null,B.x,null,0,D.b34,null)
 D.bEV=new A.c6("What to do now",null,null)
 D.bFe=new A.c6("Last 30 days",null,null)
 D.bHP=new A.K(1/0,96)
-D.bOx=new A.G(!0,B.K,null,null,null,null,13,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.bOD=new A.G(!0,B.V,null,null,null,null,24,B.ao,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.bOy=new A.G(!0,B.K,null,null,null,null,13,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.bOE=new A.G(!0,B.V,null,null,null,null,24,B.ao,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.bRj=new A.t("No feedback yet. Guests are asked for it when they check out.",null,B.a7,null,null,null,null,null,null,null,null)
 D.bRn=new A.t("Guest feedback (private)",null,null,null,null,null,null,null,null,null,null)
 D.bRW=new A.t("Grow my business",null,null,null,null,null,null,null,null,null,null)
@@ -383,4 +383,4 @@ D.bSa=new A.t("Fair for everyone: NamStay changes the order of guesthouses every
 D.bTY=new A.t("Share my NamStay link",null,null,null,null,null,null,null,null,null,null)
 D.bV3=new A.t("Open the Repairs list",null,null,null,null,null,null,null,null,null,null)
 D.bXt=new A.t("What guests report during their stay: things not working and damage. Orders are on their own list. Answer fast and tell the guest how long it will take. Repairs also go on the Repairs list, where you choose who fixes them and record the cost.",null,B.hn,null,null,null,null,null,null,null,null)})()};
-(a=>{a["Rsbfu9QKfmrxlABek2+xYiUsdl0="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["T2d9qr9cwISFr8VUZnN5wrMroqI="]=a.current})($__dart_deferred_initializers__);
