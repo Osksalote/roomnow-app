@@ -1,6 +1,6 @@
 // NamStay app copy kept on the phone / computer, so the app opens fast even on slow internet.
-// Each version (5bd14532 is replaced at build time) has its own copy; old copies are removed.
-const V = 'namstay-app-5bd14532';
+// Each version (0e986be1 is replaced at build time) has its own copy; old copies are removed.
+const V = 'namstay-app-0e986be1';
 const EXT = 'namstay-ext-1';      // Flutter engine and fonts from Google (never change for the same address)
 const PHOTOS = 'namstay-photos-1'; // guesthouse photos: shown from the saved copy, refreshed in the background
 // Nothing is downloaded twice: files are saved the first time the app itself loads them.
@@ -46,7 +46,10 @@ self.addEventListener('fetch', (e) => {
 
   // The app itself: from the saved copy of this version; anything missing comes from the internet and is saved.
   const nav = req.mode === 'navigate';
-  e.respondWith(caches.open(V).then((c) => c.match(nav ? 'index.html' : req, { ignoreSearch: nav }).then((hit) => hit || fetch(req).then((r) => {
+  // App parts loaded later (owner, staff, admin screens; PDF maker) have the same file names in
+  // every version: always take them fresh from the server, never from an old browser copy.
+  const part = url.pathname.endsWith('.part.js');
+  e.respondWith(caches.open(V).then((c) => c.match(nav ? 'index.html' : req, { ignoreSearch: nav }).then((hit) => hit || fetch(req, part ? { cache: 'reload' } : undefined).then((r) => {
     if (r.ok) c.put(nav ? 'index.html' : req, r.clone());
     return r;
   }).catch(() => Response.error()))));

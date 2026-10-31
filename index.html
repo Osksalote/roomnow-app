@@ -18,6 +18,7 @@
   <!-- Start connecting early (faster first opening on slow internet) -->
   <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://rgialahzshpnareeizzk.supabase.co" crossorigin>
+  <link rel="preload" href="main.dart.js?v=0e986be1" as="script">
   <title>NamStay</title>
   <style>
     body{margin:0;background:#F3F4F2}
@@ -28,7 +29,7 @@
   </style>
 </head>
 <body>
-  <div id="splash"><img src="icons/Icon-192.png" alt=""><div>NamStay</div><small>Loading…</small><small id="slow" style="display:none;max-width:280px;text-align:center">Slow internet: the first opening can take a minute. After that NamStay opens fast, even with weak signal.</small></div>
+  <div id="splash"><img src="icons/Icon-192.png" alt=""><div>NamStay</div><small>Loading…</small><small id="slow" style="display:none;max-width:280px;text-align:center">Slow internet: only the first opening takes longer. After that NamStay opens at once, even with weak signal.</small></div>
   <script>
     window.addEventListener('flutter-first-frame', function(){ var s=document.getElementById('splash'); if(s) s.remove(); });
     setTimeout(function(){ var s=document.getElementById('slow'); if(s) s.style.display='block'; }, 6000);
@@ -38,6 +39,6 @@
     }
   </script>
   <script src="push.js"></script>
-  <script src="flutter_bootstrap.js?v=5bd14532" async></script>
+  <script src="flutter_bootstrap.js?v=0e986be1" async></script>
 </body>
 </html>
