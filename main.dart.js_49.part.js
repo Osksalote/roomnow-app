@@ -1,166 +1,109 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,F,C,D,B={
-a5Q(d,e,f){var x=A.b([],y.l),w=new C.a6v(f,D.SN,e,null,!1,null)
-return new B.a5P(d,x,w,new B.aIt())},
-VO:function VO(d,e,f){this.a=d
-this.b=e
-this.c=f},
-agC:function agC(d,e,f,g,h){var _=this
-_.a=d
-_.b=e
-_.c=f
-_.d=g
-_.e=h},
-a5P:function a5P(d,e,f,g){var _=this
-_.d=d
-_.x=e
-_.a=f
-_.b=g
-_.c=null},
-aIt:function aIt(){},
-Bc(d){var x=new C.xW(d,1,D.uy)
-return new C.aai(x,x,x,x,x,x)}},E
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,D,E,B={
+c9p(d,e){return new B.uN(e,d,null)},
+uN:function uN(d,e,f){this.c=d
+this.d=e
+this.a=f},
+UI:function UI(d){var _=this
+_.d=null
+_.e=d
+_.c=_.a=null},
+bay:function bay(d){this.a=d},
+bax:function bax(d,e){this.a=d
+this.b=e},
+baz:function baz(){},
+bas:function bas(d,e){this.a=d
+this.b=e},
+bat:function bat(d){this.a=d},
+baw:function baw(d,e){this.a=d
+this.b=e},
+bau:function bau(d){this.a=d},
+bav:function bav(d,e){this.a=d
+this.b=e}},C
 J=c[1]
 A=c[0]
-F=c[2]
-C=c[11]
-D=c[40]
-B=a.updateHolder(c[16],B)
-E=c[47]
-B.VO.prototype={}
-B.agC.prototype={}
-B.a5P.prototype={
-aK0(d,e,f,g,h){var x,w,v,u
-if(this.a.gqT()){x=this.gwT()
-x.toString
-w=d.b
-w.hs()
-v=A.eZ()
-v.AQ(-1.5707963267948966)
-u=x.a
-v.du(f-h+x.b-u,g+u-x.d,0,1)
-w.uu(v)
-e.hl(d)
-w.r3()}else{x=e.a
-w=x.c
-x=x.d
-e.a=new C.fE(f,g,w,x)
-e.hl(d)}},
-a_o(b6,b7){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3=this,b4=null,b5=b3.gwT()
-b5.toString
-x=b3.a
-w=x.gqT()
-v=w?b3.gfA().a:b3.gfA().b
-u=w?b5.gcQ():b5.b+b5.d
-t=w?b3.gfA().b-(b5.b+b5.d):b3.gfA().a-b5.gcQ()
-s=new C.ff(0,t,0,1/0)
-r=b5.b
-q=b5.d
-p=r+q
-o=x.gqT()?new C.ff(0,b3.gfA().b-p,0,b3.gfA().a-b5.gcQ()):new C.ff(0,b3.gfA().a-b5.gcQ(),0,b3.gfA().b-p)
-n=C.bYG()
-p=b6.a
-m=A.jI(b4,b4,b4,y.t,y.C)
-l=A.b([n],y.c)
-k=new C.is(b4,b4,m,p).agV(l)
-j=b3.d.$1(k)
-for(m=J.aK(j),l=y.u,i=b3.x,h=y.j,x=x.a,g=u-q,f=u-b5.a,b5=v-u,e=b4,d=e,a0=d,a1=0,a2=0;a2<m.gv(j);){a3=m.h(j,a2)
-if(a0==null){a4=b3.c
-a4=a4==null?b4:a4.cx
-if(a4==null)a4=x
-if(b7==null)a5=b4
-else{a6=b7+1
-a5=b7
-b7=a6}a7=C.bX4(p,a5,a4)
-a8=a7.a_z()
-a4=a8.e
-a5=new A.bX("0 Tr ")
-a4.ds(a5.gv(0))
-F.Z.f3(a4.a,a4.b,a5)
-a4.b=a4.b+a5.gv(0)
-a0=k.aUZ(a8,a7)
-d=v-(w?g:r)
-a1=w?f:q
-i.push(new B.agC(a0,s,o,d,A.b([],h)))}a4=l.b(a3)
-if(a4&&a3.goT()){if(e!=null){a3.wV(e)
-e=b4}a9=a3.hs().bJ()}else a9=b4
-a3.h4(a0,s,!1)
-b0=a4&&a3.goT()
-d.toString
-a5=a3.a.d
-b1=b4
-if(d-a5<a1){if(a5<=b5&&!b0){a0=b1
-continue}if(!b0)throw A.p(A.eG("Widget won't fit into the page as its height ("+A.e(a5)+") exceed a page height ("+A.e(b5)+"). You probably need a SpanningWidget or use a single page layout"))
-if(a9!=null)a3.hs().fY(a9)
-b2=new C.ff(0,t,0,d-a1)
-a3.h4(a0,b2,!1)
-e=a3.hs()
-F.h.gaI(i).e.push(new B.VO(a3,b2,e.bJ()))
-if(!a3.gwi())++a2
-a0=b1
-continue}a5=F.h.gaI(i)
-a4=a4&&b0?a3.hs().bJ():b4
-a5.e.push(new B.VO(a3,s,a4))
-d-=a3.a.d;++a2}},
-aiA(b8){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6=this,b7=b6.gwT()
-b7.toString
-x=b6.a
-w=x.gqT()
-v=w?b6.gfA().a:b6.gfA().b
-if(w)b6.gfA()
-else b6.gfA()
-u=w?b7.gcQ():b7.b+b7.d
-if(!w)b7.gcQ()
-for(t=b6.x,s=t.length,r=b7.a,q=y.u,x=x.a,p=y.v,o=b7.d,b7=b7.b,n=u-o,m=u-r,l=0;l<t.length;t.length===s||(0,A.F)(t),++l){k=t[l]
-j=v-(w?n:b7)
-i=w?m:o
-for(h=k.e,g=h.length,f=k.a,e=0,d=0,a0=null,a1=0;a2=h.length,a1<a2;h.length===g||(0,A.F)(h),++a1){a3=h[a1]
-a4=a3.a
-a5=p.b(a4)?a4.d:0
-if(a5>0){e+=a5
-a0=a4}else{if(q.b(a4)&&a4.goT()){a2=a3.c
-a2.toString
-a4.hs().fY(a2)}a4.h4(f,a3.b,!1)
-d+=a4.a.d}}a6=Math.max(0,j-i-d)
-a7=e>0?a6/e:0/0
-for(a8=0,a1=0;g=h.length,a1<g;h.length===a2||(0,A.F)(h),++a1){a3=h[a1]
-a4=a3.a
-g=p.b(a4)
-a5=g?a4.d:0
-a9=g?a4.e:D.EH
-if(a5>0){b0=a4===a0?a6-a8:a7*a5
-b1=A.d8()
-switch(a9.a){case 0:b1.b=b0
+D=c[2]
+E=c[22]
+B=a.updateHolder(c[5],B)
+C=c[36]
+B.uN.prototype={
+S(){return new B.UI(new A.bK())}}
+B.UI.prototype={
+af(){this.az()
+A.a0p().bl(new B.bay(this),y.p).dH(new B.baz())},
+Ja(d){return this.aJI(d)},
+aJI(d){var x=0,w=A.n(y.f),v=this,u,t
+var $async$Ja=A.j(function(e,f){if(e===1)return A.k(f,w)
+for(;;)switch(x){case 0:t=v.c
+t.toString
+u=A.aL(new B.bas(v,d),!1,null,y.b)
+x=2
+return A.d(A.K(t,!1).ah(u),$async$Ja)
+case 2:if(v.c!=null)v.B(new B.bat(v))
+return A.l(null,w)}})
+return A.m($async$Ja,w)},
+t(d){var x=this,w=null,v=A.bQ(w,w,w,w,w,w,w,w,w,C.bSV,w,w),u=A.b([],y.e),t=x.a.d
+if(t!=null)u.push(A.aY(A.aM(!1,w,w,w,!0,w,w,w,!0,w,D.G5,w,w,w,w,w,w,!1,w,w,w,w,w,A.o(t,w,w,w,w,w,w,w,w),w,C.c_M,w,w,w),w,D.am,w,w))
+u.push(C.bFd)
+t=x.e
+u.push(new E.E0(x.a.c,x.gazF(),!0,t))
+t=x.d
+if(t!=null)u.push(A.hi(D.a1,w,new B.baw(x,d),w,A.o("Only complete guesthouses are shown to travellers. These reminders help you get your first bookings sooner.",w,w,w,w,w,w,w,w),C.bZX,!t))
+return A.bH(v,w,A.bf(u,w,D.aK,w,D.N,!1),w,w)}}
+var z=a.updateTypes(["ab<~>(y)","fW(x)"])
+B.bay.prototype={
+$1(d){var x=this.a
+if(x.c!=null)x.B(new B.bax(x,d))},
+$S:349}
+B.bax.prototype={
+$0(){return this.a.d=J.u1(this.b,"finish_profile")},
+$S:0}
+B.baz.prototype={
+$1(d){},
+$S:15}
+B.bas.prototype={
+$1(d){return new E.fW(this.a.a.c,this.b,null)},
+$S:z+1}
+B.bat.prototype={
+$0(){return this.a.e=new A.bK()},
+$S:0}
+B.baw.prototype={
+$1(d){return this.akm(d)},
+akm(d){var x=0,w=A.n(y.f),v,u=this,t,s,r
+var $async$$1=A.j(function(e,f){if(e===1)return A.k(f,w)
+for(;;)switch(x){case 0:r=!d
+if(r){x=3
+break}else f=r
+x=4
 break
-case 1:b1.b=0
-break}g=a3.b.b
-b2=b1.b
-if(b2===b1)A.am(A.ro(b1.a))
-a4.h4(f,new C.ff(g,g,b2,b0),!1)
-d+=a4.a.d
-a8+=b0}}for(b3=j,a1=0;a1<h.length;h.length===g||(0,A.F)(h),++a1){a3=h[a1]
-a2=a3.a
-b3-=a2.a.d
-b4=A.d8()
-switch(0){case 3:case 0:b4.b=0
-break}if(q.b(a2)&&a2.goT()){b2=a3.c
-b2.toString
-a2.hs().fY(b2)}b2=b4.b
-if(b2===b4)A.am(A.ro(b4.a))
-b5=b6.c
-b5=b5==null?null:b5.cx
-if(b5==null)b5=x
-b6.aK0(f,a2,r+b2,b3,b5.b)}}}}
-var z=a.updateTypes(["dO(is)"])
-B.aIt.prototype={
-$1(d){return new C.dO(null,null,null)},
-$S:z+0};(function inheritance(){var x=a.inheritMany,w=a.inherit
-x(A.a2,[B.VO,B.agC])
-w(B.a5P,C.rC)
-w(B.aIt,A.h6)})()
-A.kr(b.typeUniverse,JSON.parse('{"a5P":{"rC":[]}}'))
-var y={v:A.aa("r2"),C:A.aa("ri"),c:A.aa("E<ri>"),l:A.aa("E<agC>"),j:A.aa("E<VO>"),u:A.aa("fk"),t:A.aa("iV")};(function constants(){E.uw=new C.xW(D.rs,0,D.BS)
-E.wx=new A.a0(57409,"MaterialIcons",!1)
-E.Fr=new A.a0(58627,"MaterialIcons",!1)
-E.hU=new C.nV(1,0.8784313725490196,0.8784313725490196,0.8784313725490196)})()};
-(a=>{a["R0KsaoW6SCV4Y5MwaiLZj84R0Fc="]=a.current})($__dart_deferred_initializers__);
+case 3:x=5
+return A.d(A.bHf(u.b,"finish_profile"),$async$$1)
+case 5:f=!f
+case 4:if(f){x=1
+break}t=u.b
+if(t.e==null){x=1
+break}s=d?"Reminders on":"Reminders off"
+x=6
+return A.d(A.ae(t,new B.bau(d),s),$async$$1)
+case 6:if(f){t=u.a
+t.B(new B.bav(t,d))}case 1:return A.l(v,w)}})
+return A.m($async$$1,w)},
+$S:53}
+B.bau.prototype={
+$0(){return A.a0F("finish_profile",!this.a)},
+$S:971}
+B.bav.prototype={
+$0(){return this.a.d=!this.b},
+$S:0};(function installTearOffs(){var x=a._instance_1u
+x(B.UI.prototype,"gazF","Ja",0)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
+x(B.uN,A.V)
+x(B.UI,A.Y)
+w(A.h4,[B.bay,B.baz,B.bas,B.baw])
+w(A.j6,[B.bax,B.bat,B.bau,B.bav])})()
+A.kq(b.typeUniverse,JSON.parse('{"uN":{"V":[],"i":[]},"UI":{"Y":["uN"]}}'))
+var y={e:A.a9("F<i>"),p:A.a9("bM"),b:A.a9("@"),f:A.a9("~")};(function constants(){C.bZa=new A.p("Why finish? Travellers only see complete guesthouses. Photos, prices and a phone number give them the confidence to book. It takes about 10 minutes, and you can skip a step and come back later.",D.ni,null,null,null,null)
+C.bFd=new A.I(D.h9,C.bZa,null)
+C.bSV=new A.p("Finish your guesthouse",null,null,null,null,null)
+C.bZX=new A.p("Remind me every 24 hours until it is finished",null,null,null,null,null)
+C.c_M=new A.p("Message from the NamStay team",D.a2,null,null,null,null)})()};
+(a=>{a["xgz4789SgvLAmGhLPoMgwZmnr3A="]=a.current})($__dart_deferred_initializers__);
