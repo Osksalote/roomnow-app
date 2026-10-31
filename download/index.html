@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get NamStay</title>
+<link rel="icon" href="../favicon.png">
+<style>
+  :root{--teal:#0E6A6C;--ink:#1E2422;--muted:#4A514E;--bg:#F3F4F2;--card:#fff;--line:#C9CFCC}
+  @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--ink:#EEF1EF;--muted:#B6BDB9;--bg:#121615;--card:#1D2321;--line:#38413E}}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,sans-serif}
+  main{max-width:520px;margin:0 auto;padding:24px 16px 40px}
+  .logo{display:flex;align-items:center;gap:12px}
+  .logo img{width:56px;height:56px;border-radius:14px}
+  h1{margin:0;font-size:26px;color:var(--teal)}
+  p{color:var(--muted);line-height:1.5}
+  .card{background:var(--card);border-radius:16px;padding:16px;margin-top:14px;border:1px solid var(--line)}
+  h2{margin:0 0 6px;font-size:18px}
+  a.btn{display:block;text-align:center;background:var(--teal);color:#fff;text-decoration:none;font-weight:800;padding:15px;border-radius:14px;margin-top:10px}
+  a.btn.alt{background:transparent;color:var(--ink);border:1px solid var(--line)}
+  ol{padding-left:20px;color:var(--muted);line-height:1.7;margin:6px 0 0}
+  small{color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+  <div class="logo"><img src="../icons/Icon-192.png" alt=""><div><h1>NamStay</h1><small>Test version</small></div></div>
+  <p>Find a free room in any town in Namibia. Owners and receptionists manage their place in the same app.</p>
+
+  <div class="card">
+    <h2>Android</h2>
+    <a class="btn" href="namstay.apk" download>Download the Android app (.apk)</a>
+    <ol>
+      <li>Open the downloaded file.</li>
+      <li>If asked, allow "install from this source".</li>
+      <li>Tap Install, then Open.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>iPhone</h2>
+    <a class="btn" href="../">Open NamStay in Safari</a>
+    <ol>
+      <li>Open the link above in <b>Safari</b>.</li>
+      <li>Tap the Share button (square with an arrow).</li>
+      <li>Tap <b>Add to Home Screen</b>, then Add.</li>
+      <li>NamStay now opens from its own icon, like an app.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Computer or any phone</h2>
+    <a class="btn alt" href="../">Open the web app</a>
+  </div>
+</main>
+</body>
+</html>
