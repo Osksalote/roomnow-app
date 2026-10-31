@@ -17,7 +17,7 @@ p=s===0?r:r/s
 m=u.h(0,"vat_number")
 o=F.o.aC(J.b7(m==null?"":m))
 n=B.a28("Invoice "+A.e(d.h(0,"ref")))
-m=B.bIY(!1,G.uW,null,C.qP,null,null)
+m=B.bIY(!1,G.uX,null,C.qQ,null,null)
 n.E9(new B.vc(m,new D.bG4(u,o,t,q,r,d,s,p)))
 v=n.hF()
 x=1
@@ -57,10 +57,10 @@ if(f.h(0,"phone")!=null)e.push(B.df("Tel "+A.e(f.h(0,"phone")),l,l,l))
 w=n.b
 v=w.length!==0
 if(v)e.push(B.df("VAT no. "+w,l,l,l))
-e=A.b([E.bPc(E.Dv(e,C.hm))],x)
+e=A.b([E.bPc(E.Dv(e,C.hn))],x)
 w=n.c
-if(w!=null)e.push(new B.N5(B.bQQ(w),C.Bb,90,90))
-e=E.bS8(e,C.hm)
+if(w!=null)e.push(new B.N5(B.bQQ(w),C.Bc,90,90))
+e=E.bS8(e,C.hn)
 w=n.d
 u=n.e
 if(w>=u)t=v?"TAX INVOICE / RECEIPT":"INVOICE / RECEIPT"
@@ -92,11 +92,11 @@ e=f.h(0,g)
 if(J.b7(e==null?"":e).length!==0)o.push(B.df(J.b7(f.h(0,g)),l,l,l))
 o.push(new B.fF(l,6,l))
 o.push(B.df("Made with NamStay",G.YL,l,l))
-return E.Dv(o,C.hm)},
+return E.Dv(o,C.hn)},
 $S:z+0}
 D.bG3.prototype={
 $1(d){return d!=null},
 $S:76};(function inheritance(){var x=a.inheritMany
 x(A.hm,[D.bG4,D.bG3])})()
 var y={k:A.ab("tQ"),r:A.ab("E<y<@>>"),u:A.ab("E<dS>"),B:A.ab("t<@,@>"),w:A.ab("f"),o:A.ab("eL"),b:A.ab("@"),e:A.ab("w")}};
-(a=>{a["ADZf1d1J9BUoc/fCxkXJZUL8fY8="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["L/BCcAE1IlmKrhPZkLUG1smwKA0="]=a.current})($__dart_deferred_initializers__);

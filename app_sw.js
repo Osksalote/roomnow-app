@@ -1,6 +1,6 @@
 // NamStay app copy kept on the phone / computer, so the app opens fast even on slow internet.
-// Each version (0e986be1 is replaced at build time) has its own copy; old copies are removed.
-const V = 'namstay-app-0e986be1';
+// Each version (42254316 is replaced at build time) has its own copy; old copies are removed.
+const V = 'namstay-app-42254316';
 const EXT = 'namstay-ext-1';      // Flutter engine and fonts from Google (never change for the same address)
 const PHOTOS = 'namstay-photos-1'; // guesthouse photos: shown from the saved copy, refreshed in the background
 // Nothing is downloaded twice: files are saved the first time the app itself loads them.

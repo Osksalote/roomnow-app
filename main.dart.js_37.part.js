@@ -147,21 +147,21 @@ x=1
 break
 case 1:return A.k(v,w)}})
 return A.l($async$a_o,w)},
-Kl(d,e){var x=0,w=A.m(y.S),v,u,t,s
-var $async$Kl=A.i(function(f,g){if(f===1)return A.j(g,w)
+Km(d,e){var x=0,w=A.m(y.S),v,u,t,s
+var $async$Km=A.i(function(f,g){if(f===1)return A.j(g,w)
 for(;;)switch(x){case 0:t=$.M().b
 t===$&&A.a()
 u=y.z
 s=A
 x=3
-return A.d(t.a7("set_repair_blocks_room",A.H(["p_repair",d,"p_on",e],y.N,u),u),$async$Kl)
+return A.d(t.a7("set_repair_blocks_room",A.H(["p_repair",d,"p_on",e],y.N,u),u),$async$Km)
 case 3:u=s.kn(g)
 t=u==null?null:C.n.B(u)
 v=t==null?0:t
 x=1
 break
 case 1:return A.k(v,w)}})
-return A.l($async$Kl,w)}},D,M
+return A.l($async$Km,w)}},D,M
 J=c[1]
 A=c[0]
 C=c[2]
@@ -228,7 +228,7 @@ x=u}for(;;)switch(x){case 0:l={}
 k=null
 u=4
 x=7
-return A.d(E.Kj(s.a.c),$async$xt)
+return A.d(E.Kk(s.a.c),$async$xt)
 case 7:k=f
 u=2
 x=6
@@ -341,16 +341,16 @@ s=A.cw(a4.h(0,h))
 r=a4.h(0,f)==null?"":" by "+A.e(a4.h(0,f))
 q=a4.h(0,e)==null?"":" \xb7 took "+E.Zu(a4.h(0,e))
 p=a4.h(0,d)==null?"":" \xb7 "+A.e(a4.h(0,d))
-v.push(A.n(u+"Fixed "+s+r+q+p,m,m,m,m,C.mQ,m,m,m))}if($.m4.n(0,o.a.c)&&J.c(a4.h(0,n),"fixed")){u=a4.h(0,a0)==null?"Cost not entered":"Cost "+A.b9(a4.h(0,a0))
+v.push(A.n(u+"Fixed "+s+r+q+p,m,m,m,m,C.mR,m,m,m))}if($.m4.n(0,o.a.c)&&J.c(a4.h(0,n),"fixed")){u=a4.h(0,a0)==null?"Cost not entered":"Cost "+A.b9(a4.h(0,a0))
 v.push(A.n(u,m,m,m,m,A.da(m,m,a4.h(0,a0)==null?C.aF:C.bx,m,m,m,m,m,m,m,m,m,m,m,C.au,m,m,!0,m,m,m,m,m,m,m,m),m,m,m))}v.push(C.aP)
 u=A.b([],t)
 if(a1&&$.m4.n(0,o.a.c))u.push(A.cj(D.aej,A.n(a4.h(0,j)==null?"Who fixes it?":"Change",m,m,m,m,m,m,m,m),new B.bng(o,a4),m))
 if(a1)t=$.m4.n(0,o.a.c)||J.c(a4.h(0,"mine"),!0)
 else t=!1
-if(t)u.push(A.dg(D.EZ,D.zQ,new B.bnh(o,a4),A.cD(C.Z,m,m,m,m,m,m)))
+if(t)u.push(A.dg(D.EZ,D.zR,new B.bnh(o,a4),A.cD(C.Z,m,m,m,m,m,m)))
 if(a1&&a4.h(0,i)!=null)u.push(A.dq(K.fn,F.eD,new B.bni(a4),m))
 if(x&&$.m4.n(0,o.a.c)&&J.c(a4.h(0,n),"fixed"))u.push(A.dq(D.ES,D.bOO,new B.bnj(o,a4),m))
-if(a1&&$.m4.n(0,o.a.c))u.push(A.b3(C.rJ,m,m,new B.bnk(o,a4),m,A.kX(m,m,m,m,m,m,m,m,m,C.a5,m,m,m,m,m,m,m,m,m,m)))
+if(a1&&$.m4.n(0,o.a.c))u.push(A.b3(C.rK,m,m,new B.bnk(o,a4),m,A.kX(m,m,m,m,m,m,m,m,m,C.a5,m,m,m,m,m,m,m,m,m,m)))
 v.push(A.ce(C.ag,u,C.ai,6,6))
 return A.aZ(new A.J(C.aG,A.X(v,C.a8,C.q,C.w,0,C.x),m),m,w,C.b1,m)},
 t(d){var x=this,w=x.d
@@ -372,7 +372,7 @@ o.push(A.dx(s,v,s,new B.bmY(q,e,w),u==null?t==null:u===t,s,s))}p=A.b([D.bPw,C.T,
 if(q.b!=null)p.push(A.he(C.a0,s,new B.bmZ(q,e),s,D.bNh,D.bQj,q.c))
 p.push(C.T)
 p.push(A.at(s,C.Q,!1,s,!0,C.G,s,A.au(),this.b,s,s,s,s,s,2,D.afu,C.A,!0,s,!0,s,!1,s,C.R,s,s,s,s,s,s,160,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,C.N,s,s,s,s,s,s,s,s,s,s,s,s,!0,C.L,s,C.S,s,s,s,s))
-p.push(A.at(s,C.Q,!1,s,!0,C.G,s,A.au(),this.c,s,s,s,s,s,2,L.wu,C.A,!0,s,!0,s,!1,s,C.R,s,s,s,s,s,s,1000,s,3,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,C.N,s,s,s,s,s,s,s,s,s,s,s,s,!0,C.L,s,C.S,s,s,s,s))
+p.push(A.at(s,C.Q,!1,s,!0,C.G,s,A.au(),this.c,s,s,s,s,s,2,L.wv,C.A,!0,s,!0,s,!1,s,C.R,s,s,s,s,s,s,1000,s,3,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,C.N,s,s,s,s,s,s,s,s,s,s,s,s,!0,C.L,s,C.S,s,s,s,s))
 p.push(A.b0(D.bQS,new B.bn_(d),s))
 return new A.J(new A.ad(20,20,20,r.f.d+20),A.dQ(A.X(p,C.a8,C.q,C.a4,0,C.x),s,C.A,s,s,s,C.O),s)},
 $S:26}
@@ -411,7 +411,7 @@ case 2:q=e
 x=s.c&&q!=null?3:4
 break
 case 3:x=5
-return A.d(B.Kl(q,!0),$async$$0)
+return A.d(B.Km(q,!0),$async$$0)
 case 5:case 4:return A.k(null,w)}})
 return A.l($async$$0,w)},
 $S:1}
@@ -482,7 +482,7 @@ for(x=D.QY.gcL(),x=x.gN(x),w=u.a;x.p();){v=x.gH()
 r.push(A.dx(t,A.n(v.b,t,t,t,t,t,t,t,t),t,new B.bnq(w,e,v),w.a===v.a,t,t))}r=A.b([D.bTE,A.ce(C.ag,r,C.ai,6,6),A.at(t,C.Q,!1,t,!0,C.G,t,A.au(),u.c,t,t,t,t,t,2,D.af5,C.A,!0,t,!0,t,!1,t,C.R,t,t,t,t,t,t,t,t,1,t,t,!1,"\u2022",t,t,t,t,t,!1,t,t,!1,t,!0,t,C.N,t,t,t,t,t,t,t,t,t,t,t,t,!0,C.L,t,C.S,t,t,t,t)],s)
 if($.m4.n(0,u.b.a.c))r.push(A.at(t,C.Q,!1,t,!0,C.G,t,A.au(),u.d,t,t,t,t,t,2,D.agN,C.A,!0,t,!0,t,!1,t,C.R,t,t,t,t,C.bk,t,t,t,1,t,t,!1,"\u2022",t,t,t,t,t,!1,t,t,!1,t,!0,t,C.N,t,t,t,t,t,t,t,t,t,t,t,t,!0,C.L,t,C.S,t,t,t,t))
 r=A.dQ(A.X(r,C.a_,C.q,C.a4,0,C.x),t,C.A,t,t,t,C.O)
-return A.cA(A.b([A.b3(C.bb,t,t,new B.bnr(d),t,t),A.b0(D.zQ,new B.bns(d),t)],s),t,r,t,D.zQ)},
+return A.cA(A.b([A.b3(C.bb,t,t,new B.bnr(d),t,t),A.b0(D.zR,new B.bns(d),t)],s),t,r,t,D.zR)},
 $S:37}
 B.bnq.prototype={
 $1(d){return this.b.$1(new B.bnp(this.a,this.c))},
@@ -542,7 +542,7 @@ $0(){var x=0,w=A.m(y.H),v,u=this,t
 var $async$$0=A.i(function(d,e){if(d===1)return A.j(e,w)
 for(;;)switch(x){case 0:t=u.a
 x=3
-return A.d(B.Kl(u.b.h(0,"id"),u.c),$async$$0)
+return A.d(B.Km(u.b.h(0,"id"),u.c),$async$$0)
 case 3:v=t.a=e
 x=1
 break
@@ -620,20 +620,20 @@ i=h.dk(i,new B.bny())
 x=A.P(i,i.$ti.i("z.E"))
 w=e.b
 i=y.p
-h=A.bW(A.b([A.nv("Repairs","Things that are broken. Choose who fixes them, by when, and write the cost.")],i),j,j,A.GL(j,j,!1,j,j,j,j,A.b([A.lO("To fix ("+f.length+")"),A.lO("Fixed ("+x.length+")")],i)),j,j,j,j,j,D.bRi,j,j)
+h=A.bW(A.b([A.nv("Repairs","Things that are broken. Choose who fixes them, by when, and write the cost.")],i),j,j,A.GM(j,j,!1,j,j,j,j,A.b([A.lO("To fix ("+f.length+")"),A.lO("Fixed ("+x.length+")")],i)),j,j,j,j,j,D.bRi,j,j)
 g=this.a
-v=A.Mv(C.hw,D.bSY,g.gaLL())
+v=A.Mv(C.hx,D.bSY,g.gaLL())
 u=A.b([A.aZ(D.bu6,j,C.ar,j,j),C.T],i)
 if(f.length===0)u.push(D.a92)
 for(t=f.length,s=0;s<f.length;f.length===t||(0,A.F)(f),++s)u.push(g.a2G(f[s]))
-u=A.bf(u,j,C.o1,j,C.O,!1)
+u=A.bf(u,j,C.o2,j,C.O,!1)
 t=A.b([],i)
 if(w!=null){r=A.b([],i)
 for(q=[new A.a8("This week",w.h(0,"week")),new A.a8("This month",w.h(0,"month")),new A.a8("This year",w.h(0,"year"))],s=0;s<3;++s){p=q[s]
 o=p.b
 if(o==null)o=0
 n=A.br("#,##0")
-r.push(new A.de(1,C.b8,new A.ch(j,j,j,j,new A.J(C.eo,A.X(A.b([new H.Mq(A.n("N$ "+n.a3(A.aD(o)),j,j,j,j,D.bJ4,j,j,j),j),A.n(p.a,j,j,j,j,C.aH,j,j,j)],i),C.B,C.q,C.w,0,C.x),j),j),j))}r=A.ax(r,C.B,C.q,C.w,0,j)
+r.push(new A.de(1,C.b8,new A.ch(j,j,j,j,new A.J(C.eo,A.X(A.b([new H.Mr(C.hh,A.n("N$ "+n.a3(A.aD(o)),j,j,j,j,D.bJ4,j,j,j),j),A.n(p.a,j,j,j,j,C.aH,j,j,j)],i),C.B,C.q,C.w,0,C.x),j),j),j))}r=A.ax(r,C.B,C.q,C.w,0,j)
 q=w.h(0,"from_guests_year")
 r=A.b([r,A.n("Repairs from guest complaints this year: "+A.b9(q==null?0:q),j,j,j,j,C.aO,j,j,j)],i)
 q=w.h(0,"by_room")
@@ -651,7 +651,7 @@ k=A.br("#,##0")
 r.push(A.n(m+": "+("N$ "+k.a3(A.aD(l==null?0:l)))+" ("+A.e(n.h(0,"count"))+" repair(s))",j,j,j,j,C.ac,j,j,j))}r.push(C.T)
 C.k.J(t,r)}if(x.length===0)t.push(D.a9_)
 for(r=x.length,s=0;s<x.length;x.length===r||(0,A.F)(x),++s)t.push(g.a2G(x[s]))
-return A.DL(A.bK(h,j,A.GN(A.b([u,A.bf(t,j,C.o1,j,C.O,!1)],i)),j,v),0,2)},
+return A.DL(A.bK(h,j,A.GO(A.b([u,A.bf(t,j,C.o2,j,C.O,!1)],i)),j,v),0,2)},
 $S:949}
 B.bnx.prototype={
 $1(d){return J.c(d.h(0,"status"),"open")||J.c(d.h(0,"status"),"assigned")},
@@ -668,10 +668,10 @@ w(A.jX,[B.bn0,B.bna,B.bnt])})()
 A.l3(b.typeUniverse,JSON.parse('{"kQ":{"T":[],"h":[]},"Wz":{"V":["kQ"]}}'))
 var y=(function rtii(){var x=A.ab
 return{w:x("B<f,f>"),R:x("z<@>"),k:x("E<ca>"),t:x("E<t<f,@>>"),p:x("E<h>"),D:x("y<t<f,@>>"),V:x("bk<+(y<t<f,@>>,t<f,@>?)>"),P:x("t<f,@>"),l:x("iu"),m:x("+(y<t<f,@>>,t<f,@>?)"),N:x("f"),y:x("L"),z:x("@"),S:x("w"),h:x("t<f,@>?"),T:x("f?"),H:x("~")}})();(function constants(){var x=a.makeConstList
-D.a9_=new A.cC(C.lC,"Nothing fixed yet.",null,null)
-D.a92=new A.cC(M.jU,"Nothing to fix. Well done!",null,null)
+D.a9_=new A.cC(C.lD,"Nothing fixed yet.",null,null)
+D.a92=new A.cC(M.jV,"Nothing to fix. Well done!",null,null)
 D.ES=new A.aa(C.eW,18,null,null,null)
-D.EZ=new A.aa(C.jT,18,null,null,null)
+D.EZ=new A.aa(C.jU,18,null,null,null)
 D.aaH=new A.a5(57908,"MaterialIcons",!1)
 D.aej=new A.aa(D.aaH,18,null,null,null)
 D.af5=new A.aQ(null,null,null,"What was done? (optional)",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
@@ -697,7 +697,7 @@ D.bQj=new A.x("The room cannot be used until it is fixed",null,null,null,null,nu
 D.bQS=new A.x("Add to the list",null,null,null,null,null,null,null,null,null,null)
 D.bQV=new A.x("Where?",null,C.aO,null,null,null,null,null,null,null,null)
 D.bRi=new A.x("Repairs",null,null,null,null,null,null,null,null,null,null)
-D.zQ=new A.x("Fixed",null,null,null,null,null,null,null,null,null,null)
+D.zR=new A.x("Fixed",null,null,null,null,null,null,null,null,null,null)
 D.bSY=new A.x("Something to fix",null,null,null,null,null,null,null,null,null,null)
 D.bTE=new A.x("How was it solved?",null,C.aO,null,null,null,null,null,null,null,null)})()};
-(a=>{a["5UHSBN9Uz5C/tvfXSu+wKm+3+y8="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["hSYT9DN4QmHZ6RMQsiVpEMfTsos="]=a.current})($__dart_deferred_initializers__);

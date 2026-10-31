@@ -151,7 +151,7 @@ cdR(d){var x
 A:{if("accepted"===d){x=C.Vk
 break A}if("relocation"===d){x=D.bxB
 break A}if("declined"===d){x=D.bxD
-break A}x=C.kp
+break A}x=C.kq
 break A}return x},
 uo:function uo(d,e,f){this.c=d
 this.d=e
@@ -301,14 +301,14 @@ x=1
 break
 case 1:return A.k(v,w)}})
 return A.l($async$ano,w)},
-JK(d,e,f){var x=0,w=A.m(y.y),v,u,t
-var $async$JK=A.i(function(g,h){if(g===1)return A.j(h,w)
+JL(d,e,f){var x=0,w=A.m(y.y),v,u,t
+var $async$JL=A.i(function(g,h){if(g===1)return A.j(h,w)
 for(;;)switch(x){case 0:if(f)u="You did not arrive."
 else u=e.h(0,"cancel_requested_at")!=null?"Cancelled as you asked.":""
 t=new A.ak(new A.bc(u,C.aB,C.an),$.a2())
 u=e.h(0,"paid_nad")
 x=3
-return A.d(A.cb(null,null,!0,null,new B.bFR(f,A.an(u==null?0:u),t),d,null,!0,!0,y.y),$async$JK)
+return A.d(A.cb(null,null,!0,null,new B.bFR(f,A.an(u==null?0:u),t),d,null,!0,!0,y.y),$async$JL)
 case 3:if(h!==!0||d.e==null){v=!1
 x=1
 break}u=f?"Marked: did not come":"Booking cancelled"
@@ -316,7 +316,7 @@ v=A.ag(d,new B.bFS(e,t,f),u)
 x=1
 break
 case 1:return A.k(v,w)}})
-return A.l($async$JK,w)},
+return A.l($async$JL,w)},
 bFT(d,e){var x=0,w=A.m(y.y),v,u
 var $async$bFT=A.i(function(f,g){if(f===1)return A.j(g,w)
 for(;;)switch(x){case 0:u=new A.ak(new A.bc("Sorry, we cannot cancel this booking. Please talk to us in the chat.",C.aB,C.an),$.a2())
@@ -400,7 +400,7 @@ bFZ:function bFZ(d){this.a=d},
 bG_:function bG_(d){this.a=d},
 bG1:function bG1(d,e){this.a=d
 this.b=e},
-KH:function KH(d,e,f){this.c=d
+KI:function KI(d,e,f){this.c=d
 this.d=e
 this.a=f},
 arA:function arA(d){this.a=d},
@@ -635,7 +635,7 @@ var $async$i0=A.i(function(d,e){if(d===1){u.push(e)
 x=v}for(;;)switch(x){case 0:v=3
 q={}
 x=6
-return A.d(A.Ke(t.a.c),$async$i0)
+return A.d(A.Kf(t.a.c),$async$i0)
 case 6:s=e
 q.a=null
 p=s
@@ -732,7 +732,7 @@ t(b4){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i=this,h=null,g="total_nad",f="paid_nad"
 if(i.f!=null){x=A.bW(h,h,h,h,h,h,h,h,h,h,h,h)
 w=i.f
 w.toString
-return A.bK(x,h,new A.cC(C.et,A.hz(w),A.eT(C.rI,i.gQY(),h),h),h,h)}x=i.d
+return A.bK(x,h,new A.cC(C.et,A.hz(w),A.eT(C.rJ,i.gQY(),h),h),h,h)}x=i.d
 if(x==null)return A.bK(A.bW(h,h,h,h,h,h,h,h,h,h,h,h),h,C.e5,h,h)
 v=A.aE(x.h(0,"status"))
 u=A.an(x.h(0,g))-A.an(x.h(0,f))
@@ -758,28 +758,28 @@ if(x.h(0,a4)!=null)n.push("From "+A.e(x.h(0,a4)))
 if(x.h(0,a5)!=null)n.push("Car "+A.e(x.h(0,a5)))
 p.push(A.n(C.k.aS(n," \xb7 "),h,h,h,h,C.ac,h,h,h))}p.push(D.a6S)
 n=x.h(0,"rooms")
-p.push(A.n(A.e(n==null?h:J.r(n,"name"))+" \xb7 "+A.ay(x.h(0,a6))+" \u2192 "+A.ay(x.h(0,"check_out")),h,h,h,h,C.mP,h,h,h))
+p.push(A.n(A.e(n==null?h:J.r(n,"name"))+" \xb7 "+A.ay(x.h(0,a6))+" \u2192 "+A.ay(x.h(0,"check_out")),h,h,h,h,C.mQ,h,h,h))
 p.push(C.ba)
 p.push(A.n("Total "+A.b9(x.h(0,g))+" \xb7 Paid "+A.b9(x.h(0,f)),h,h,h,h,h,h,h,h))
 n=u>0
 if(n&&!C.k.n(A.b(["cancelled","expired"],y.s),v))p.push(A.n("Still to pay "+A.b9(u),h,h,h,h,C.dy,h,h,h))
-if(v==="held"&&x.h(0,a7)!=null)p.push(A.n("Held until "+A.cw(x.h(0,a7)),h,h,h,h,G.zI,h,h,h))
-if(x.h(0,a8)!=null)p.push(A.n('Guest said "I have arrived" at '+A.cw(x.h(0,a8)),h,h,h,h,C.mQ,h,h,h))
+if(v==="held"&&x.h(0,a7)!=null)p.push(A.n("Held until "+A.cw(x.h(0,a7)),h,h,h,h,G.zJ,h,h,h))
+if(x.h(0,a8)!=null)p.push(A.n('Guest said "I have arrived" at '+A.cw(x.h(0,a8)),h,h,h,h,C.mR,h,h,h))
 if(x.h(0,a1)!=null)p.push(A.n("Payment confirmed "+A.cw(x.h(0,a1)),h,h,h,h,C.aH,h,h,h))
 p.push(C.T)
 p.push(D.bRM)
 l=A.b([],o)
-for(k=C.mm.gcL(),k=k.gN(k);k.p();){j=k.gH()
+for(k=C.mn.gcL(),k=k.gN(k);k.p();){j=k.gH()
 l.push(A.dx(h,A.n(j.b,h,h,h,h,h,h,h,h),h,new B.b0g(i,b4,j),J.c(x.h(0,"pay_pref"),j.a),h,h))}p.push(A.ce(C.ag,l,C.ai,0,6))
-p=A.b([A.aZ(new A.J(C.ci,A.X(p,C.a_,C.q,C.w,0,C.x),h),h,h,h,h),A.ys(new B.b0h(i,b4),B.apH(i.a.c),y.h),C.ao,A.cj(G.wi,D.bP7,new B.b0i(b4,x),h)],o)
+p=A.b([A.aZ(new A.J(C.ci,A.X(p,C.a_,C.q,C.w,0,C.x),h),h,h,h,h),A.ys(new B.b0h(i,b4),B.apH(i.a.c),y.h),C.ao,A.cj(G.wj,D.bP7,new B.b0i(b4,x),h)],o)
 l=y.s
 if(C.k.n(A.b(["held","paid","checked_in"],l),v))p.push(new B.SB(x,s,q,h))
 if(s)p.push(D.btS)
-if(m&&!s)C.k.J(p,A.b([C.ao,A.ax(A.b([A.b1(A.cj(C.is,D.bPW,new B.b0t(t),h),1),C.bD,A.b1(A.cj(C.e8,C.kJ,new B.b0y(t,x),h),1)],o),C.B,C.q,C.w,0,h)],o))
+if(m&&!s)C.k.J(p,A.b([C.ao,A.ax(A.b([A.b1(A.cj(C.it,D.bPW,new B.b0t(t),h),1),C.bD,A.b1(A.cj(C.e8,C.kK,new B.b0y(t,x),h),1)],o),C.B,C.q,C.w,0,h)],o))
 if(x.h(0,d)!=null){m=A.b([D.bBo],o)
 k=i.e
-if(k!=null)m.push(A.lq(h,A.oH(A.cU(12),A.En(k,h,new B.b0z(),C.eS,C.Bc,!1,240,h,h),C.bJ),C.A,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new B.b0A(i,b4),h,h,h,h,h,h,!1,C.dZ))
-if(r)C.k.J(m,A.b([C.T,A.n("Check your bank or e-wallet: did "+A.b9(x.h(0,g))+" arrive with reference "+A.e(x.h(0,"ref"))+"?",h,h,h,h,C.ac,h,h,h),C.ao,A.dg(C.lH,D.bOG,new B.b0B(i,b4,x),h),C.T,A.eT(D.bRv,i.gaHM(),A.fC(h,h,h,h,h,h,h,h,h,C.a5,h,h,h,h,h,D.a0W,h,h,h,h))],o))
+if(k!=null)m.push(A.lq(h,A.oH(A.cU(12),A.Eo(k,h,new B.b0z(),C.eS,C.Bd,!1,240,h,h),C.bJ),C.A,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new B.b0A(i,b4),h,h,h,h,h,h,!1,C.dZ))
+if(r)C.k.J(m,A.b([C.T,A.n("Check your bank or e-wallet: did "+A.b9(x.h(0,g))+" arrive with reference "+A.e(x.h(0,"ref"))+"?",h,h,h,h,C.ac,h,h,h),C.ao,A.dg(C.lI,D.bOG,new B.b0B(i,b4,x),h),C.T,A.eT(D.bRv,i.gaHM(),A.fC(h,h,h,h,h,h,h,h,h,C.a5,h,h,h,h,h,D.a0W,h,h,h,h))],o))
 C.k.J(p,m)}m=x.h(0,a9)
 if(J.dt(m==null?0:m,0))p.push(A.aZ(A.aL(!1,h,h,h,!0,h,h,h,!0,h,D.ac_,h,h,h,h,h,!1,h,h,h,h,h,h,h,A.n("Money given back: "+A.b9(x.h(0,a9)),h,h,h,h,C.a7,h,h,h),h,h,h),h,C.aQ,h,h))
 if(J.c(x.h(0,b0),!0)){m=x.h(0,"comp_value_nad")
@@ -791,35 +791,35 @@ m=A.b([],o)
 if(!C.k.n(A.b(["held","paid","checked_in"],l),v))k=v==="checked_out"&&n
 else k=!0
 if(k)m.push(new B.jv(C.eW,"Money received",C.Z,i.gaLy(),h))
-if(C.k.n(A.b(["held","paid"],l),v))m.push(new B.jv(C.lz,"Book in (guest inside)",C.W,new B.b0C(i,b4,x),h))
+if(C.k.n(A.b(["held","paid"],l),v))m.push(new B.jv(C.lA,"Book in (guest inside)",C.W,new B.b0C(i,b4,x),h))
 if(C.k.n(A.b(["held","paid"],l),v)&&x.h(0,a8)==null)m.push(new B.jv(D.Ej,"Arrived (not booked in yet)",C.W,new B.b0D(i,b4),h))
 if(C.k.n(A.b(["held","paid"],l),v)){k=J.b7(x.h(0,a6))
 j=Date.now()
 k=C.o.bu(k,A.bI("yyyy-MM-dd").a3(new A.aP(j,0,!1)))<0&&x.h(0,a8)==null}else k=!1
-if(k)m.push(new B.jv(C.w5,"Did not come",C.a5,new B.b0E(i,b4,x),h))
-if(C.k.n(A.b(["held","paid","checked_in"],l),v)&&x.h(0,"discount_pct")==null)m.push(new B.jv(G.jV,"Give a discount",C.Z,new B.b0j(i,b4,x),h))
-if(C.k.n(A.b(["paid","checked_in"],l),v))m.push(new B.jv(C.ir,"Stay longer",C.W,new B.b0k(i,x),h))
-if(n&&C.k.n(A.b(["paid","checked_in"],l),v))m.push(new B.jv(C.hs,"Remind to pay",C.aF,new B.b0l(i,b4),h))
-if(v==="checked_in")m.push(new B.jv(C.iq,"Book out (guest left)",C.bx,new B.b0m(i,b4,x),h))
-if($.m4.n(0,x.h(0,b1))&&n&&C.k.n(A.b(["checked_in","checked_out"],l),v)&&x.h(0,e)!=null)m.push(new B.jv(C.lA,"Report unpaid",C.a5,new B.b0n(i,b4,x,u),h))
+if(k)m.push(new B.jv(C.w6,"Did not come",C.a5,new B.b0E(i,b4,x),h))
+if(C.k.n(A.b(["held","paid","checked_in"],l),v)&&x.h(0,"discount_pct")==null)m.push(new B.jv(G.jW,"Give a discount",C.Z,new B.b0j(i,b4,x),h))
+if(C.k.n(A.b(["paid","checked_in"],l),v))m.push(new B.jv(C.is,"Stay longer",C.W,new B.b0k(i,x),h))
+if(n&&C.k.n(A.b(["paid","checked_in"],l),v))m.push(new B.jv(C.ht,"Remind to pay",C.aF,new B.b0l(i,b4),h))
+if(v==="checked_in")m.push(new B.jv(C.ir,"Book out (guest left)",C.bx,new B.b0m(i,b4,x),h))
+if($.m4.n(0,x.h(0,b1))&&n&&C.k.n(A.b(["checked_in","checked_out"],l),v)&&x.h(0,e)!=null)m.push(new B.jv(C.lB,"Report unpaid",C.a5,new B.b0n(i,b4,x,u),h))
 n=!1
 if($.m4.n(0,x.h(0,b1)))if(!J.c(x.h(0,b0),!0)){n=x.h(0,f)
-n=J.c(n==null?0:n,0)&&C.k.n(A.b(["held","paid","checked_in","checked_out"],l),v)}if(n)m.push(new B.jv(D.E4,"Complimentary stay (free)",G.um,new B.b0o(i,b4,x),h))
+n=J.c(n==null?0:n,0)&&C.k.n(A.b(["held","paid","checked_in","checked_out"],l),v)}if(n)m.push(new B.jv(D.E4,"Complimentary stay (free)",G.un,new B.b0o(i,b4,x),h))
 n=!1
 if($.m4.n(0,x.h(0,b1))){k=x.h(0,f)
-if(J.dt(k==null?0:k,0))n=v==="cancelled"||J.c(x.h(0,b2),!0)||J.c_P(x.h(0,g),x.h(0,f))}if(n)m.push(new B.jv(C.wd,"Refund (give money back)",C.aF,new B.b0p(i,b4,x),h))
+if(J.dt(k==null?0:k,0))n=v==="cancelled"||J.c(x.h(0,b2),!0)||J.c_P(x.h(0,g),x.h(0,f))}if(n)m.push(new B.jv(C.we,"Refund (give money back)",C.aF,new B.b0p(i,b4,x),h))
 n=x.h(0,f)
-if(J.dt(n==null?0:n,0)||v==="checked_out")m.push(new B.jv(C.w8,"Print receipt",C.W,new B.b0q(i,b4),h))
+if(J.dt(n==null?0:n,0)||v==="checked_out")m.push(new B.jv(C.w9,"Print receipt",C.W,new B.b0q(i,b4),h))
 if(C.k.n(A.b(["held","paid"],l),v))m.push(new B.jv(C.E3,"Cancel booking",C.a5,new B.b0r(i,b4,x),h))
 p.push(M.yw(1.6,m,10,10,280,C.dY,!0))
 if(x.h(0,"cancel_requested_at")!=null&&C.k.n(A.b(["held","paid"],l),v)){n=A.n("The guest asks to cancel"+(x.h(0,b3)==null?"":": "+A.e(x.h(0,b3))),h,h,h,h,C.dy,h,h,h)
-p.push(A.aZ(new A.J(C.aG,A.X(A.b([n,A.n(J.c(x.h(0,b2),!0)?"Paid "+A.b9(x.h(0,f))+'. The guest asks for the money back. Accept the cancel, then press "Refund".':"Paid "+A.b9(x.h(0,f))+". You decide about any money back.",h,h,h,h,h,h,h,h),new B.KH(x,q,h)],o),C.a8,C.q,C.w,0,C.x),h),h,C.b5,C.id,h))}p.push(new A.bk(new B.b0s(i),new B.b0u(x),C.bN,h,y.W))
+p.push(A.aZ(new A.J(C.aG,A.X(A.b([n,A.n(J.c(x.h(0,b2),!0)?"Paid "+A.b9(x.h(0,f))+'. The guest asks for the money back. Accept the cancel, then press "Refund".':"Paid "+A.b9(x.h(0,f))+". You decide about any money back.",h,h,h,h,h,h,h,h),new B.KI(x,q,h)],o),C.a8,C.q,C.w,0,C.x),h),h,C.b5,C.ie,h))}p.push(new A.bk(new B.b0s(i),new B.b0u(x),C.bN,h,y.W))
 p.push(new A.bk(new B.b0v(i),new B.b0w(x),A.b([new A.ca("guest_requests","booking_id",i.a.c)],y.k),h,y.w))
 p.push(D.bBf)
 p.push(A.cj(C.e8,D.bNs,new B.b0x(i,b4,x),h))
 p.push(C.aP)
-p.push(new A.F2(i.a.c,h))
-return A.bK(w,h,A.nS(A.bf(p,h,C.uT,h,C.O,!1),q),h,h)}}
+p.push(new A.F3(i.a.c,h))
+return A.bK(w,h,A.nS(A.bf(p,h,C.uU,h,C.O,!1),q),h,h)}}
 B.SB.prototype={
 R(){return new B.SC()},
 Zi(){return this.e.$0()}}
@@ -856,7 +856,7 @@ q=A.b([A.dg(D.F1,A.n(v.a.d?"Save and send in the app":"Save",u,u,u,u,u,u,u,u),v.
 if(!v.a.d&&r!=null)C.k.J(q,A.b([A.cj(C.e8,G.YR,new B.aZC(r,w),u),A.cj(D.adY,D.bRf,new B.aZD(r,w),u)],o))
 q=A.b([p,x,A.ce(C.ag,q,C.ai,8,8)],o)
 if(s.h(0,"near_at")!=null||s.h(0,t)!=null)q.push(new A.J(C.en,A.n(s.h(0,t)!=null?"Guest at the gate since "+A.cw(s.h(0,t)):"Guest close by since "+A.cw(s.h(0,"near_at")),u,u,u,u,C.dy,u,u,u),u))
-return A.aZ(new A.J(C.aG,A.X(q,C.a8,C.q,C.w,0,C.x),u),u,u,C.id,u)}}
+return A.aZ(new A.J(C.aG,A.X(q,C.a8,C.q,C.w,0,C.x),u),u,u,C.ie,u)}}
 B.uo.prototype={
 t(d){var x="place_id",w=this.c
 return new A.bk(new B.axs(this),new B.axt(this),A.b([new A.ca("stay_extensions",x,w),new A.ca("relocations",x,w)],y.k),null,y.v)}}
@@ -929,11 +929,11 @@ u=u==null?q:J.r(u,"name")
 v=A.n(v+" \xb7 "+A.e(u==null?"":u),q,q,q,q,C.c3,q,q,q)
 p=A.n("Wants to stay until "+A.ay(p.h(0,"new_out"))+" (+"+x+" night(s), was "+A.ay(p.h(0,"old_out"))+") \xb7 asked "+A.cw(p.h(0,"created_at")),q,q,q,q,C.ac,q,q,q)
 u=w?D.bxo:D.bxd
-t=A.cD(C.Z,q,C.iU,q,q,q,q)
+t=A.cD(C.Z,q,C.iV,q,q,q,q)
 s=y.p
-t=A.b([A.b0(A.n(w?"Accept":"Choose a room",q,q,q,q,q,q,q,q),new B.aZZ(r,d),t),A.eT(I.mR,new B.b__(r,d),A.fC(q,q,q,q,q,q,q,q,q,C.a5,q,C.cZ,q,q,q,q,q,q,q,q))],s)
+t=A.b([A.b0(A.n(w?"Accept":"Choose a room",q,q,q,q,q,q,q,q),new B.aZZ(r,d),t),A.eT(I.mS,new B.b__(r,d),A.fC(q,q,q,q,q,q,q,q,q,C.a5,q,C.cZ,q,q,q,q,q,q,q,q))],s)
 if(o.h(0,"guest_phone")!=null)t.push(A.cj(O.fn,L.eD,new B.b_0(o),A.fC(q,q,q,q,q,q,q,q,q,q,q,C.cZ,q,q,q,q,q,q,q,q)))
-t.push(A.b3(C.zP,q,q,new B.b_1(r,d),q,q))
+t.push(A.b3(C.zQ,q,q,new B.b_1(r,d),q,q))
 return A.aZ(new A.J(C.aG,A.X(A.b([v,p,C.aP,u,C.T,A.ce(C.ag,t,C.ai,8,8)],s),C.a8,C.q,C.w,0,C.x),q),q,q,C.b1,q)}}
 B.Vd.prototype={
 t(d){var x,w,v,u,t,s,r=null,q=this.c,p=J.c(q.h(0,"status"),"planned"),o=Date.now(),n=A.bI("yyyy-MM-dd").a3(new A.aP(o,0,!1)),m=p&&J.Co(J.h8(q.h(0,"move_on"),n),0)
@@ -956,9 +956,9 @@ q="Moving "+u+" at "+t+s+" \xb7 planned by "+A.e(q==null?"-":q)}else{u=A.cw(q.h(
 q=q.h(0,"moved_by")
 q="Moved "+u+" \xb7 by "+A.e(q==null?"-":q)}u=m?C.aF:C.aV
 q=A.b([x,C.ba,w,C.aP,A.n(q,r,r,r,r,A.da(r,r,u,r,r,r,r,r,r,r,r,r,r,r,m?C.au:r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r)],v)
-if(p)C.k.J(q,A.b([C.T,A.ce(C.ag,A.b([A.dg(C.lH,D.bN8,new B.bej(this,d),A.cD(r,r,D.bDE,r,r,r,r)),A.b3(D.bOK,r,r,new B.bek(this,d),r,r)],v),C.ai,0,8)],v))
+if(p)C.k.J(q,A.b([C.T,A.ce(C.ag,A.b([A.dg(C.lI,D.bN8,new B.bej(this,d),A.cD(r,r,D.bDE,r,r,r,r)),A.b3(D.bOK,r,r,new B.bek(this,d),r,r)],v),C.ai,0,8)],v))
 return A.aZ(new A.J(C.aG,A.X(q,C.a8,C.q,C.w,0,C.x),r),r,o,C.b1,r)}}
-B.KH.prototype={
+B.KI.prototype={
 t(d){var x,w,v,u,t,s,r,q,p,o=this,n="paid",m="check_in",l="arrived_at",k="checked_in",j=Date.now(),i=A.bI("yyyy-MM-dd").a3(new A.aP(j,0,!1))
 j=o.c
 x=j.h(0,"status")
@@ -971,17 +971,17 @@ r=y.p
 q=A.b([],r)
 if(j.h(0,"cancel_requested_at")!=null)p=w.k(x,n)||w.k(x,"held")
 else p=!1
-if(p)C.k.J(q,A.b([s.$5$color$filled("Accept cancel",C.jT,new B.arD(o,d),C.a5,!0),s.$3("Say no",C.op,new B.arE(o,d))],r))
+if(p)C.k.J(q,A.b([s.$5$color$filled("Accept cancel",C.jU,new B.arD(o,d),C.a5,!0),s.$3("Say no",C.oq,new B.arE(o,d))],r))
 if(u&&j.h(0,l)==null)q.push(s.$3("Arrived",D.Ej,new B.arF(o,d)))
-if(u||t)q.push(s.$5$color$filled("Book in",C.lz,new B.arG(o,d),C.Z,!0))
-if(t)q.push(s.$4$color("Did not come",C.w5,new B.arH(o,d),C.a5))
-if(w.k(x,k))q.push(s.$4$filled("Book out",C.iq,new B.arI(o,d),!0))
+if(u||t)q.push(s.$5$color$filled("Book in",C.lA,new B.arG(o,d),C.Z,!0))
+if(t)q.push(s.$4$color("Did not come",C.w6,new B.arH(o,d),C.a5))
+if(w.k(x,k))q.push(s.$4$filled("Book out",C.ir,new B.arI(o,d),!0))
 r=!0
 if(!w.k(x,"checked_out"))if(!w.k(x,k)){j=j.h(0,"paid_nad")
 j=J.dt(j==null?0:j,0)}else j=r
 else j=r
-if(j)q.push(s.$3("Receipt",C.w8,new B.arJ(o,d)))
-if(w.k(x,k)||w.k(x,n))q.push(s.$3("Stay longer",C.ir,new B.arK(o,d)))
+if(j)q.push(s.$3("Receipt",C.w9,new B.arJ(o,d)))
+if(w.k(x,k)||w.k(x,n))q.push(s.$3("Stay longer",C.is,new B.arK(o,d)))
 if(q.length===0)return C.b6
 return new A.J(C.en,A.ce(C.ag,q,C.ai,6,6),null)}}
 B.jv.prototype={
@@ -999,7 +999,7 @@ $0(){return this.a.f=this.b},
 $S:0}
 B.b00.prototype={
 $1(d){var x=null,w=y.p,v=A.X(A.b([D.bTK,C.T,A.at(x,C.Q,!1,x,!0,C.G,x,A.au(),this.a,x,x,x,x,x,2,C.eY,C.A,!0,x,!0,x,!1,x,C.R,x,x,x,x,x,x,x,x,3,x,x,!1,"\u2022",x,x,x,x,x,!1,x,x,!1,x,!0,x,C.N,x,x,x,x,x,x,x,x,x,x,x,x,!0,C.L,x,C.S,x,x,x,x)],w),C.B,C.q,C.a4,0,C.x)
-return A.cA(A.b([A.b3(C.bb,x,x,new B.b_Z(d),x,x),A.b0(I.iZ,new B.b0_(d),A.cD(C.a5,x,C.cZ,x,x,x,x))],w),x,v,x,D.Z5)},
+return A.cA(A.b([A.b3(C.bb,x,x,new B.b_Z(d),x,x),A.b0(I.j_,new B.b0_(d),A.cD(C.a5,x,C.cZ,x,x,x,x))],w),x,v,x,D.Z5)},
 $S:7}
 B.b_Z.prototype={
 $0(){A.I(this.a,!1).V(!1)
@@ -1050,10 +1050,10 @@ o=A.ay(s.h(0,"date"))
 n=s.h(0,"note")==null?"":" \xb7 "+A.e(s.h(0,"note"))
 v.push(A.n(r+q+" \xb7 "+("N$ "+p)+" \xb7 "+o+n,m,m,m,m,C.di,m,m,m))}v.push(C.ba)
 v.push(D.bO2)
-x=A.b([A.dq(C.wh,D.bSD,new B.b0c(this.a,this.b),m)],x)
-for(u=A.aj(w).i("as<1>"),u=A.aUm(new A.as(w,new B.b0d(),u),1,u.i("z.E")),u=new A.GP(J.bh(u.a),u.b,A.u(u).i("GP<1>"));u.p();){r=u.gH()
-x.push(A.dq(C.is,A.n("Call "+A.e(r.h(0,"place")),m,m,m,m,m,m,m,m),new B.b0e(r),m))}v.push(A.ce(C.ag,x,C.ai,0,6))
-return A.aZ(new A.J(C.aG,A.X(v,C.a_,C.q,C.w,0,C.x),m),m,C.b5,C.id,m)},
+x=A.b([A.dq(C.wi,D.bSD,new B.b0c(this.a,this.b),m)],x)
+for(u=A.aj(w).i("as<1>"),u=A.aUm(new A.as(w,new B.b0d(),u),1,u.i("z.E")),u=new A.GQ(J.bh(u.a),u.b,A.u(u).i("GQ<1>"));u.p();){r=u.gH()
+x.push(A.dq(C.it,A.n("Call "+A.e(r.h(0,"place")),m,m,m,m,m,m,m,m),new B.b0e(r),m))}v.push(A.ce(C.ag,x,C.ai,0,6))
+return A.aZ(new A.J(C.aG,A.X(v,C.a_,C.q,C.w,0,C.x),m),m,C.b5,C.ie,m)},
 $S:205}
 B.b0c.prototype={
 $0(){return A.ag(this.b,new B.b04(this.a),"Guest asked to pay first")},
@@ -1090,7 +1090,7 @@ $S:0}
 B.b0a.prototype={
 $1(d){var x=null,w=this.a.e
 w.toString
-return A.ui(x,x,A.a3U(A.En(w,x,x,C.eS,x,!1,x,x,x)),x,x,x,x,C.hI,x,x,x)},
+return A.ui(x,x,A.a3U(A.Eo(w,x,x,C.eS,x,!1,x,x,x)),x,x,x,x,C.hJ,x,x,x)},
 $S:120}
 B.b0z.prototype={
 $3(d,e,f){return D.buc},
@@ -1132,7 +1132,7 @@ B.b0E.prototype={
 $0(){var x=0,w=A.m(y.H),v=this
 var $async$$0=A.i(function(d,e){if(d===1)return A.j(e,w)
 for(;;)switch(x){case 0:x=2
-return A.d(B.JK(v.b,v.c,!0),$async$$0)
+return A.d(B.JL(v.b,v.c,!0),$async$$0)
 case 2:if(e)v.a.i0()
 return A.k(null,w)}})
 return A.l($async$$0,w)},
@@ -1236,7 +1236,7 @@ B.b0r.prototype={
 $0(){var x=0,w=A.m(y.H),v=this
 var $async$$0=A.i(function(d,e){if(d===1)return A.j(e,w)
 for(;;)switch(x){case 0:x=2
-return A.d(B.JK(v.b,v.c,!1),$async$$0)
+return A.d(B.JL(v.b,v.c,!1),$async$$0)
 case 2:if(e)v.a.i0()
 return A.k(null,w)}})
 return A.l($async$$0,w)},
@@ -1309,8 +1309,8 @@ $1(d){return new A.dG(new B.bEL(this.a,this.b,this.c),null)},
 $S:11}
 B.bEL.prototype={
 $2(d,e){var x,w=null,v=y.p,u=A.b([],v),t=this.b
-if(t>0)u.push(A.n("Still owed: "+A.b9(t),w,w,w,w,C.rE,w,w,w))
-u.push(A.at(w,C.Q,!0,w,!0,C.G,w,A.au(),this.c,w,w,w,w,w,2,G.wr,C.A,!0,w,!0,w,!1,w,C.R,w,w,w,w,C.bk,w,w,w,1,w,w,!1,"\u2022",w,w,w,w,w,!1,w,w,!1,w,!0,w,C.N,w,w,w,w,w,w,w,w,w,w,w,C.iY,!0,C.L,w,C.S,w,w,w,w))
+if(t>0)u.push(A.n("Still owed: "+A.b9(t),w,w,w,w,C.rF,w,w,w))
+u.push(A.at(w,C.Q,!0,w,!0,C.G,w,A.au(),this.c,w,w,w,w,w,2,G.ws,C.A,!0,w,!0,w,!1,w,C.R,w,w,w,w,C.bk,w,w,w,1,w,w,!1,"\u2022",w,w,w,w,w,!1,w,w,!1,w,!0,w,C.N,w,w,w,w,w,w,w,w,w,w,w,C.iZ,!0,C.L,w,C.S,w,w,w,w))
 u.push(C.ap)
 t=this.a
 x=y.N
@@ -1366,7 +1366,7 @@ C.k.e0(w,new B.axq())
 e=d.dk(e,new B.axr())
 v=A.P(e,e.$ti.i("z.E"))
 e=y.p
-d=A.bW(A.b([A.nv("Stay longer & room moves","Guests who asked to stay more nights, and guests moving to another room.")],e),j,j,A.GL(j,j,!0,j,j,j,C.rw,A.b([A.lO("Want to stay longer ("+a1.length+")"),A.lO("Room moves ("+w.length+")"),A.lO("History ("+(x.length+v.length)+")")],e)),j,j,j,j,j,D.bO0,j,j)
+d=A.bW(A.b([A.nv("Stay longer & room moves","Guests who asked to stay more nights, and guests moving to another room.")],e),j,j,A.GM(j,j,!0,j,j,j,C.rx,A.b([A.lO("Want to stay longer ("+a1.length+")"),A.lO("Room moves ("+w.length+")"),A.lO("History ("+(x.length+v.length)+")")],e)),j,j,j,j,j,D.bO0,j,j)
 if(a1.length===0)a0=D.a96
 else{a0=A.b([],e)
 for(u=a1.length,t=0;t<a1.length;a1.length===u||(0,A.F)(a1),++t)a0.push(new B.abf(a1[t],a4,j))
@@ -1394,7 +1394,7 @@ l=A.br("#,##0")
 m=" \xb7 extra "+("N$ "+l.a3(A.aD(m==null?0:m)))}l=p.h(0,g)==null?"":" \xb7 by "+A.e(p.h(0,g))
 k=p.h(0,f)==null?"":" \xb7 "+A.cw(p.h(0,f))
 s.push(new A.ch(j,j,j,C.eP,A.aL(!1,j,j,j,!0,j,j,j,!0,j,j,j,j,j,j,j,!1,j,j,j,j,j,A.n("Until "+o+" (was "+n+")"+m+l+k,j,j,j,j,j,j,j,j),j,q,j,B.cdR(p.h(0,"status")),j),j))}if(v.length===0&&q===0)s.push(D.a90)
-return A.DL(A.bK(d,j,A.GN(A.b([a0,u,A.bf(s,j,C.aG,j,C.O,!1)],e)),j,j),this.a.d,3)},
+return A.DL(A.bK(d,j,A.GO(A.b([a0,u,A.bf(s,j,C.aG,j,C.O,!1)],e)),j,j),this.a.d,3)},
 $S:944}
 B.axn.prototype={
 $1(d){return J.c(d.h(0,"status"),"requested")},
@@ -1440,7 +1440,7 @@ q=u.h(0,h)
 t=(t==null?q==null:t===q)?C.ar:i
 q=f.b
 p=u.h(0,h)
-o=A.bE((q==null?p==null:q===p)?K.Ez:C.oA,C.W,i,i)
+o=A.bE((q==null?p==null:q===p)?K.Ez:C.oB,C.W,i,i)
 n=A.e(u.h(0,"name"))
 q=A.n(n+(J.c(u.h(0,"same_room"),!0)?" (same room)":""),i,i,i,i,C.a7,i,i,i)
 p=A.e(u.h(0,"beds"))
@@ -1480,7 +1480,7 @@ return s.a7("accept_extension",A.H(["p_ext",w,"p_room",v,"p_move_time",u,"p_repl
 $S:1}
 B.aZW.prototype={
 $1(d){var x=null,w=A.at(x,C.Q,!1,x,!0,C.G,x,A.au(),this.a,x,x,x,x,x,2,C.eY,C.A,!0,x,!0,x,!1,x,C.R,x,x,x,x,x,x,x,x,3,x,x,!1,"\u2022",x,x,x,x,x,!1,x,x,!1,x,!0,x,C.N,x,x,x,x,x,x,x,x,x,x,x,x,!0,C.L,x,C.S,x,x,x,x)
-return A.cA(A.b([A.b3(C.bb,x,x,new B.aZU(d),x,x),A.b0(I.iZ,new B.aZV(d),x)],y.p),x,w,x,I.mR)},
+return A.cA(A.b([A.b3(C.bb,x,x,new B.aZU(d),x,x),A.b0(I.j_,new B.aZV(d),x)],y.p),x,w,x,I.mS)},
 $S:7}
 B.aZU.prototype={
 $0(){A.I(this.a,!1).V(!1)
@@ -1574,7 +1574,7 @@ $0(){var x=0,w=A.m(y.H),v=this,u,t,s,r
 var $async$$0=A.i(function(d,e){if(d===1)return A.j(e,w)
 for(;;)switch(x){case 0:t=v.a
 x=2
-return A.d(A.Ke(t),$async$$0)
+return A.d(A.Kf(t),$async$$0)
 case 2:s=e
 if(s==null)throw A.p(A.eA("NOT_FOUND"))
 x=3
@@ -1591,7 +1591,7 @@ return A.l($async$$0,w)},
 $S:1}
 B.bBl.prototype={
 $1(d){var x=null,w=y.p,v=A.X(A.b([A.n("Still to pay: "+A.b9(this.a)+" (ref "+A.e(this.b.h(0,"ref"))+"). How much arrived?",x,x,x,x,x,x,x,x),C.T,A.at(x,C.Q,!1,x,!0,C.G,x,A.au(),this.c,x,x,x,x,x,2,D.agn,C.A,!0,x,!0,x,!1,x,C.R,x,x,x,x,C.bk,x,x,x,1,x,x,!1,"\u2022",x,x,x,x,x,!1,x,x,!1,x,!0,x,C.N,x,x,x,x,x,x,x,x,x,x,x,x,!0,C.L,x,C.S,x,x,x,x),C.aP,D.bTQ],w),C.a_,C.q,C.a4,0,C.x)
-return A.cA(A.b([A.b3(C.bb,x,x,new B.bBj(d),x,x),A.b0(G.YS,new B.bBk(d),A.cD(C.Z,x,C.dw,x,x,x,x))],w),x,v,x,G.rG)},
+return A.cA(A.b([A.b3(C.bb,x,x,new B.bBj(d),x,x),A.b0(G.YS,new B.bBk(d),A.cD(C.Z,x,C.dw,x,x,x,x))],w),x,v,x,G.rH)},
 $S:7}
 B.bBj.prototype={
 $0(){A.I(this.a,!1).V(!1)
@@ -1638,7 +1638,7 @@ return v.a7("place_cancel_booking",A.H(["p_booking",x,"p_reason",w,"p_no_show",t
 $S:1}
 B.bFW.prototype={
 $1(d){var x=null,w=A.at(x,C.Q,!1,x,!0,C.G,x,A.au(),this.a,x,x,x,x,x,2,C.eY,C.A,!0,x,!0,x,!1,x,C.R,x,x,x,x,x,x,x,x,3,x,x,!1,"\u2022",x,x,x,x,x,!1,x,x,!1,x,!0,x,C.N,x,x,x,x,x,x,x,x,x,x,x,x,!0,C.L,x,C.S,x,x,x,x)
-return A.cA(A.b([A.b3(C.bb,x,x,new B.bFU(d),x,x),A.b0(I.iZ,new B.bFV(d),A.cD(x,x,C.dw,x,x,x,x))],y.p),x,w,x,D.bNk)},
+return A.cA(A.b([A.b3(C.bb,x,x,new B.bFU(d),x,x),A.b0(I.j_,new B.bFV(d),A.cD(x,x,C.dw,x,x,x,x))],y.p),x,w,x,D.bNk)},
 $S:7}
 B.bFU.prototype={
 $0(){A.I(this.a,!1).V(!1)
@@ -1698,7 +1698,7 @@ return A.k(null,w)}})
 return A.l($async$$0,w)},
 $S:1}
 B.arD.prototype={
-$0(){return B.JK(this.b,this.a.c,!1)},
+$0(){return B.JL(this.b,this.a.c,!1)},
 $S:57}
 B.arE.prototype={
 $0(){return B.bFT(this.b,this.a.c)},
@@ -1715,7 +1715,7 @@ B.arG.prototype={
 $0(){return B.ann(this.b,this.a.c)},
 $S:57}
 B.arH.prototype={
-$0(){return B.JK(this.b,this.a.c,!0)},
+$0(){return B.JL(this.b,this.a.c,!0)},
 $S:57}
 B.arI.prototype={
 $0(){return B.ano(this.b,this.a.c)},
@@ -1787,18 +1787,18 @@ x=a2.h(0,"address")
 w=a2.h(0,"towns")
 x=[x,w==null?h:J.r(w,g),"Namibia"]
 w=y.o
-x=A.b([a3,E.df(new A.as(x,new B.bEu(),A.aj(x).i("as<1>")).aS(0,", "),D.iX,h,h)],w)
-if(a2.h(0,"phone")!=null)x.push(E.df("Tel "+A.e(a2.h(0,"phone")),D.iX,h,h))
+x=A.b([a3,E.df(new A.as(x,new B.bEu(),A.aj(x).i("as<1>")).aS(0,", "),D.iY,h,h)],w)
+if(a2.h(0,"phone")!=null)x.push(E.df("Tel "+A.e(a2.h(0,"phone")),D.iY,h,h))
 a3=i.b
 v=a3.length!==0
-if(v)x.push(E.df("VAT no. "+a3,D.iX,h,h))
-a3=A.b([H.bPc(H.Dv(x,F.hm))],w)
+if(v)x.push(E.df("VAT no. "+a3,D.iY,h,h))
+a3=A.b([H.bPc(H.Dv(x,F.hn))],w)
 x=i.c
-if(x!=null)a3.push(new E.N5(E.bQQ(x),F.Bb,60,60))
-a3=H.bS8(a3,F.hm)
+if(x!=null)a3.push(new E.N5(E.bQQ(x),F.Bc,60,60))
+a3=H.bS8(a3,F.hn)
 x=E.df("RECEIPT",E.i8(h,E.aIK("#0E6A6C"),h,h,h,h,h,h,h,F.c8,h,h,16,h,F.ca,h,!0,h,h,h,h),h,h)
 u=i.d
-t=E.df("Receipt for booking "+A.e(u.h(0,"ref"))+" \xb7 printed "+A.bI(f).a3(new A.aP(Date.now(),0,!1)),D.iX,h,h)
+t=E.df("Receipt for booking "+A.e(u.h(0,"ref"))+" \xb7 printed "+A.bI(f).a3(new A.aP(Date.now(),0,!1)),D.iY,h,h)
 s=u.h(0,"guest_name")
 s=A.e(s==null?"":s)
 r=u.h(0,e)==null?"":"  \xb7  "+A.e(u.h(0,e))
@@ -1810,19 +1810,19 @@ q=A.b([],y.t)
 for(p=i.f,o=J.cI(p),n=o.gN(p);n.p();){m=n.gH()
 l=A.bI(f).a3(A.cx(m.h(0,"created_at")).nl())
 k=J.c(m.h(0,"is_refund"),!0)?"Refund \xb7 ":""
-j=C.mm.h(0,m.h(0,"method"))
+j=C.mn.h(0,m.h(0,"method"))
 j=A.e(j==null?m.h(0,"method"):j)
 m=m.h(0,"amount_nad")
 m=A.aD(m==null?0:m)
 q.push([l,k+j,"N$ "+A.br(d).a3(m)])}if(o.gW(p)&&i.r>0)q.push(["","Payment","N$ "+A.br(d).a3(i.r)])
 p=E.i8(h,h,h,h,h,h,h,h,h,F.c8,h,h,10,h,F.ca,h,!0,h,h,h,h)
 o=A.H([2,F.fE],y.S,y.U)
-p=E.Rn(Q.aUf(K.qL),o,D.bIw,q,1,p,["Date","Paid by","Amount"])
+p=E.Rn(Q.aUf(K.qM),o,D.bIw,q,1,p,["Date","Paid by","Amount"])
 q=i.w
 o=A.b([E.df("Total for the stay "+("N$ "+A.br(d).a3(q)),h,h,h)],w)
 n=u.h(0,a0)
 if(!J.c(n==null?0:n,0))o.push(E.df("Includes a "+C.n.B(A.aD(u.h(0,a0)))+"% discount",h,h,h))
-if(v)o.push(E.df("Includes VAT (15%): "+("N$ "+A.br(d).a3(q*15/115)),D.iX,h,h))
+if(v)o.push(E.df("Includes VAT (15%): "+("N$ "+A.br(d).a3(q*15/115)),D.iY,h,h))
 v=i.r
 o.push(E.df("Paid "+("N$ "+A.br(d).a3(v)),E.i8(h,h,h,h,h,h,h,h,h,F.c8,h,h,13,h,F.ca,h,!0,h,h,h,h),h,h))
 u=q>v
@@ -1830,11 +1830,11 @@ v=u?"Still to pay "+("N$ "+A.br(d).a3(q-v)):"Fully paid. Thank you!"
 o.push(E.df(v,E.i8(h,u?D.buw:D.buy,h,h,h,h,h,h,h,F.c8,h,h,h,h,F.ca,h,!0,h,h,h,h),h,h))
 a3=A.b([a3,new E.fF(h,14,h),x,t,new E.fF(h,10,h),r,s,new E.fF(h,10,h),p,new E.fF(h,10,h),new E.xn(F.fE,H.Dv(o,F.Cz)),H.bJN()],w)
 x=i.x
-if(x!=null)a3.push(E.df("Served by "+x,D.iX,h,h))
+if(x!=null)a3.push(E.df("Served by "+x,D.iY,h,h))
 x=a2.h(0,a1)
-if(J.b7(x==null?"":x).length!==0)a3.push(E.df(J.b7(a2.h(0,a1)),D.iX,h,h))
+if(J.b7(x==null?"":x).length!==0)a3.push(E.df(J.b7(a2.h(0,a1)),D.iY,h,h))
 a3.push(E.df("Made with NamStay",D.bJa,h,h))
-return H.Dv(a3,F.hm)},
+return H.Dv(a3,F.hn)},
 $S:z+2}
 B.bEu.prototype={
 $1(d){return d!=null},
@@ -1849,8 +1849,8 @@ x(A.V,[B.SN,B.SC])
 x(A.j2,[B.b_X,B.b_Y,B.b_Z,B.b0_,B.b01,B.b_V,B.b0f,B.b0c,B.b04,B.b0e,B.b0i,B.b0t,B.b0y,B.b0A,B.b0B,B.b0C,B.b0D,B.b09,B.b0E,B.b0j,B.b0k,B.b0l,B.b08,B.b0m,B.b0n,B.b0o,B.b02,B.b03,B.b07,B.b0p,B.b0q,B.b0r,B.b0s,B.b0v,B.b0x,B.aZB,B.aZC,B.aZD,B.bEH,B.bEJ,B.bEK,B.bEN,B.axs,B.aZN,B.aZM,B.aZL,B.aZP,B.aZT,B.aZU,B.aZV,B.aZX,B.aZZ,B.b__,B.b_0,B.b_1,B.bej,B.bei,B.bek,B.bFk,B.bFl,B.bFn,B.bEa,B.bBj,B.bBk,B.bBm,B.bFN,B.bFO,B.bFP,B.bFQ,B.bFS,B.bFU,B.bFV,B.bFX,B.bFZ,B.bG_,B.bG1,B.arB,B.arC,B.arD,B.arE,B.arF,B.arz,B.arG,B.arH,B.arI,B.arJ,B.arK,B.bEP,B.bER,B.bES,B.bEV])
 x(A.hm,[B.b00,B.b_W,B.b0g,B.b0d,B.b0b,B.b0a,B.b0z,B.b06,B.b0u,B.b0w,B.b05,B.bEM,B.bEI,B.axt,B.axn,B.axo,B.axp,B.axr,B.aZR,B.aZS,B.aZO,B.aZW,B.aZY,B.beh,B.bFm,B.bBl,B.bFR,B.bFW,B.bG0,B.arA,B.ary,B.bEU,B.bEQ,B.bEv,B.bEu])
 x(A.jX,[B.b0h,B.bEL,B.axq,B.aZQ,B.bET])
-x(A.a3,[B.uo,B.abf,B.Vd,B.KH,B.jv])})()
-A.l3(b.typeUniverse,JSON.parse('{"SB":{"T":[],"h":[]},"hZ":{"T":[],"h":[]},"SN":{"V":["hZ"]},"SC":{"V":["SB"]},"uo":{"a3":[],"h":[]},"abf":{"a3":[],"h":[]},"Vd":{"a3":[],"h":[]},"KH":{"a3":[],"h":[]},"jv":{"a3":[],"h":[]}}'))
+x(A.a3,[B.uo,B.abf,B.Vd,B.KI,B.jv])})()
+A.l3(b.typeUniverse,JSON.parse('{"SB":{"T":[],"h":[]},"hZ":{"T":[],"h":[]},"SN":{"V":["hZ"]},"SC":{"V":["SB"]},"uo":{"a3":[],"h":[]},"abf":{"a3":[],"h":[]},"Vd":{"a3":[],"h":[]},"KI":{"a3":[],"h":[]},"jv":{"a3":[],"h":[]}}'))
 var y=(function rtii(){var x=A.ab
 return{U:x("tQ"),n:x("er<f>"),R:x("z<@>"),i:x("E<er<f>>"),t:x("E<y<@>>"),k:x("E<ca>"),X:x("E<t<f,@>>"),s:x("E<f>"),p:x("E<h>"),o:x("E<dS>"),D:x("y<t<f,@>>"),w:x("bk<y<t<f,@>>>"),v:x("bk<+(y<t<f,@>>,y<t<f,@>>)>"),W:x("bk<t<f,@>?>"),P:x("t<f,@>"),f:x("t<@,@>"),l:x("iu"),G:x("+(y<t<f,@>>,y<t<f,@>>)"),N:x("f"),E:x("eL"),y:x("L"),z:x("@"),S:x("w"),h:x("t<f,@>?"),Y:x("t<@,@>?"),H:x("~")}})();(function constants(){var x=a.makeConstList
 D.a0W=new A.bg(C.a5,2,C.ak,-1)
@@ -1858,20 +1858,20 @@ D.a4W=new A.Y(1,0.9529411764705882,0.8980392156862745,0.9607843137254902,C.K)
 D.a6S=new A.kA(22,null,null,null)
 D.a8s=new E.qG(28,28,28,28)
 D.a8E=new A.ad(8,16,8,16)
-D.a8O=new A.cC(C.oE,"No room moves planned.",null,null)
-D.a90=new A.cC(I.ip,"Nothing yet.",null,null)
-D.a96=new A.cC(C.ir,"No guest is asking to stay longer.",null,null)
+D.a8O=new A.cC(C.oF,"No room moves planned.",null,null)
+D.a90=new A.cC(I.iq,"Nothing yet.",null,null)
+D.a96=new A.cC(C.is,"No guest is asking to stay longer.",null,null)
 D.bQg=new A.x("Special arrangement",null,C.a7,null,null,null,null,null,null,null,null)
 D.a9y=new A.de(1,C.b8,D.bQg,null)
 D.E4=new A.a5(57662,"MaterialIcons",!1)
 D.Ej=new A.a5(57998,"MaterialIcons",!1)
-D.ac_=new A.aa(C.wd,null,C.aF,null,null)
+D.ac_=new A.aa(C.we,null,C.aF,null,null)
 D.aat=new A.a5(57499,"MaterialIcons",!0)
 D.acI=new A.aa(D.aat,null,C.W,null,null)
 D.abj=new A.a5(58704,"MaterialIcons",!1)
 D.F1=new A.aa(D.abj,null,null,null,null)
 D.adY=new A.aa(C.EC,null,null,null,null)
-D.ae6=new A.aa(D.E4,null,G.um,null,null)
+D.ae6=new A.aa(D.E4,null,G.un,null,null)
 D.aeQ=new A.hL("Special arrangement",'Write what the guest must know when they arrive. For example: "Key is in box 3 at the gate" or "Security will open for you". The guest sees it in the app, and reception or security see it when the guest arrives.',null)
 D.af6=new A.aQ(null,null,null,"Message to the guest",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 D.afn=new A.aQ(null,null,null,"Discount",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"%",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
@@ -1893,12 +1893,12 @@ D.L8=x([D.Bh,D.Bi,D.Bg],y.i)
 D.be0=x(["08:00","10:00","12:00","14:00"],y.s)
 D.biq=x([D.Bi,D.Bh,D.Bg],y.i)
 D.bSM=new A.x("This guest booked through NamStay (commission agreement): talk to the guest in Messages below.",null,C.cL,null,null,null,null,null,null,null,null)
-D.btS=new A.J(C.id,D.bSM,null)
+D.btS=new A.J(C.ie,D.bSM,null)
 D.bRA=new A.x("Proof is a file (PDF). Open it on a computer.",null,null,null,null,null,null,null,null,null,null)
 D.buc=new A.J(C.N,D.bRA,null)
 D.buw=new E.nL(1,0.7764705882352941,0.1568627450980392,0.1568627450980392)
 D.buy=new E.nL(1,0.1803921568627451,0.49019607843137253,0.19607843137254902)
-D.bwh=new E.Fr(419.5275590551181,595.275590551181,56.69291338582677,56.69291338582677,56.69291338582677,56.69291338582677)
+D.bwh=new E.Fs(419.5275590551181,595.275590551181,56.69291338582677,56.69291338582677,56.69291338582677,56.69291338582677)
 D.bxd=new A.bA("Room booked then: offer another room",C.a5,C.b5,null)
 D.bxo=new A.bA("Same room available",C.Z,C.ar,null)
 D.bxB=new A.bA("Accepted, new room",C.J,C.W,null)
@@ -1914,7 +1914,7 @@ D.bDE=new A.K(130,44)
 D.Xs=new A.K(64,38)
 D.bIw=new E.o5(!0,null,null,null,null,null,F.c8,10,null,null,null,null,null,null,null,null,null,null,null,null)
 D.bIx=new A.G(!0,C.J,null,null,null,null,14,C.au,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.iX=new E.o5(!0,null,null,null,null,null,F.c8,9,null,null,null,null,null,null,null,null,null,null,null,null)
+D.iY=new E.o5(!0,null,null,null,null,null,F.c8,9,null,null,null,null,null,null,null,null,null,null,null,null)
 D.bJa=new E.o5(!0,F.RJ,null,null,null,null,F.c8,8,null,null,null,null,null,null,null,null,null,null,null,null)
 D.bN8=new A.x("Guest has moved",null,null,null,null,null,null,null,null,null,null)
 D.bNk=new A.x("Say no to the cancel request",null,null,null,null,null,null,null,null,null,null)
@@ -1944,4 +1944,4 @@ D.bTp=new A.x("Give discount",null,null,null,null,null,null,null,null,null,null)
 D.bTB=new A.x("Give money back (refund)",null,null,null,null,null,null,null,null,null,null)
 D.bTK=new A.x("The guest gets this message in the app:",null,null,null,null,null,null,null,null,null,null)
 D.bTQ=new A.x("Less than the full price: the room is kept and the guest is told what is still to pay.",null,C.aH,null,null,null,null,null,null,null,null)})()};
-(a=>{a["1gF1IucFpiNeeZYFF1AScuNpoAM="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["ZRoGKPpsIt7JNuY/wc8FNDm8otw="]=a.current})($__dart_deferred_initializers__);

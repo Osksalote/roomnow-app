@@ -101,9 +101,9 @@ x(B.U6,A.V)
 w(A.hm,[B.b7p,B.b7q,B.b7j,B.b7n])
 w(A.j2,[B.b7o,B.b7k,B.b7l,B.b7m])})()
 A.l3(b.typeUniverse,JSON.parse('{"ur":{"T":[],"h":[]},"U6":{"V":["ur"]}}'))
-var y={e:A.ab("E<h>"),p:A.ab("bH"),b:A.ab("@"),f:A.ab("~")};(function constants(){C.bP_=new A.x("Why finish? Travellers only see complete guesthouses. Photos, prices and a phone number give them the confidence to book. It takes about 10 minutes, and you can skip a step and come back later.",null,D.mO,null,null,null,null,null,null,null,null)
+var y={e:A.ab("E<h>"),p:A.ab("bH"),b:A.ab("@"),f:A.ab("~")};(function constants(){C.bP_=new A.x("Why finish? Travellers only see complete guesthouses. Photos, prices and a phone number give them the confidence to book. It takes about 10 minutes, and you can skip a step and come back later.",null,D.mP,null,null,null,null,null,null,null,null)
 C.bub=new A.J(D.fT,C.bP_,null)
 C.bNM=new A.x("Remind me every 24 hours until it is finished",null,null,null,null,null,null,null,null,null,null)
 C.bO1=new A.x("Message from the NamStay team",null,D.a7,null,null,null,null,null,null,null,null)
 C.bR1=new A.x("Finish your guesthouse",null,null,null,null,null,null,null,null,null,null)})()};
-(a=>{a["rlTbVzSfDjYkU9AI6iHunLKwGCw="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["lpkC4ZJMZasmf1l1oDRbLZYkZBM="]=a.current})($__dart_deferred_initializers__);

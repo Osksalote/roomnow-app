@@ -65,15 +65,15 @@ v=w.a
 u=A.i_(D.ar,A.bE(v[0],D.W,s,s),s)
 t=A.n(v[1],s,s,s,s,D.a7,s,s,s)
 q.push(new A.J(D.b1,new A.ch(s,s,s,s,A.aL(!1,s,s,s,!0,s,s,s,!0,s,u,s,s,s,s,new C.aIl(this,d,w),!1,s,s,s,s,s,A.n(v[2],s,s,s,s,s,s,s,s),s,t,s,D.bE,s),s),s))}q.push(D.ap)
-q.push(A.b0(E.zR,new C.aIm(d),s))
+q.push(A.b0(E.zS,new C.aIm(d),s))
 if($.dd==null)q.push(A.b3(B.bOk,s,s,new C.aIn(d),s,s))
 return A.bK(r,s,A.bf(q,s,D.aN,s,D.O,!1),s,s)}}
 var z=a.updateTypes(["fT(A)","a9<~>()"])
 C.aIf.prototype={
-$1(d){var x,w,v=null,u=this.b.a,t=A.bW(v,v,v,v,v,v,v,v,v,A.n(u[1],v,v,v,v,v,v,v,v),v,v),s=y.e,r=A.b([A.e1(A.i_(D.ar,A.bE(u[0],D.W,v,36),36),v,v),D.ez,A.n(u[1],v,v,v,v,D.iY,D.aZ,v,v),D.aP,A.n(u[2],v,v,v,v,D.Yz,D.aZ,v,v),B.bBB],s)
+$1(d){var x,w,v=null,u=this.b.a,t=A.bW(v,v,v,v,v,v,v,v,v,A.n(u[1],v,v,v,v,v,v,v,v),v,v),s=y.e,r=A.b([A.e1(A.i_(D.ar,A.bE(u[0],D.W,v,36),36),v,v),D.ez,A.n(u[1],v,v,v,v,D.iZ,D.aZ,v,v),D.aP,A.n(u[2],v,v,v,v,D.Yz,D.aZ,v,v),B.bBB],s)
 for(x=0;x<J.cz(u[3]);x=w){w=x+1
-r.push(new A.J(D.eO,A.ax(A.b([A.i_(D.W,A.n(""+w,v,v,v,v,E.YI,v,v,v),13),D.hJ,new A.de(1,D.b8,A.n(J.r(u[3],x),v,v,v,v,B.bIN,v,v,v),v)],s),D.a_,D.q,D.w,0,v),v))}r.push(D.ap)
-r.push(A.b0(E.zR,new C.aIe(this.a,this.c),v))
+r.push(new A.J(D.eO,A.ax(A.b([A.i_(D.W,A.n(""+w,v,v,v,v,E.YI,v,v,v),13),D.hK,new A.de(1,D.b8,A.n(J.r(u[3],x),v,v,v,v,B.bIN,v,v,v),v)],s),D.a_,D.q,D.w,0,v),v))}r.push(D.ap)
+r.push(A.b0(E.zS,new C.aIe(this.a,this.c),v))
 return A.bK(t,v,A.bf(r,v,D.N,v,D.O,!1),v,v)},
 $S:122}
 C.aIe.prototype={
@@ -83,7 +83,7 @@ C.aIg.prototype={
 $1(d){return B.X_},
 $S:88}
 C.aIh.prototype={
-$1(d){return E.mv},
+$1(d){return E.mw},
 $S:z+0}
 C.aIl.prototype={
 $0(){return this.a.aJ8(this.b,this.c)},
@@ -117,7 +117,7 @@ C.aIj.prototype={
 $1(d){return B.X_},
 $S:88}
 C.aIk.prototype={
-$1(d){return E.mv},
+$1(d){return E.mw},
 $S:z+0}
 C.aIn.prototype={
 $0(){var x=A.aJ(new C.aIi(),!1,null,y.b)
@@ -136,38 +136,38 @@ B.abG=new A.a5(984262,"MaterialIcons",!1)
 B.biw=x(["NamStay wants every guesthouse to make money, big or small.","Every day the order of guesthouses in a town changes, and places with fewer recent bookings move up.","Places with available rooms always come before full ones.",'Guesthouses with at least 3 good private ratings (4 or 5 stars) also appear on the "Recommended" list.'],y.h)
 B.bAH=new A.fL([B.abG,"A fair chance for every guesthouse","The order changes every day; places with fewer bookings are shown first.",B.biw])
 B.bgN=x(["See how many travellers looked at your place and how many booked.","Compare your rooms-full percentage and prices with the town average.","Clear tips: add photos, adjust prices, allow price offers, answer guests faster.","Every Monday morning you get a short report for the week."],y.h)
-B.bAu=new A.fL([D.oF,"Grow my business","Your private coach: views, bookings, the town average and what to do.",B.bgN])
+B.bAu=new A.fL([D.oG,"Grow my business","Your private coach: views, bookings, the town average and what to do.",B.bgN])
 B.b8g=x(["At check-out, and after a problem is fixed, the guest is asked how the stay was.","They give stars (clean, service, comfort, value) and write what they liked and did not like.","You get an alert straight away, and a warning when a guest is unhappy.","It stays confidential: not public, not other guesthouses, not the NamStay team."],y.h)
-B.bAz=new A.fL([D.oB,"Private guest feedback","Guests tell you what they liked and disliked. Only you and your manager see it.",B.b8g])
+B.bAz=new A.fL([D.oC,"Private guest feedback","Guests tell you what they liked and disliked. Only you and your manager see it.",B.b8g])
 B.b3R=x(["Travellers choose a town and dates. Places with available rooms come first, full places last with the date they become available.","They see your photos, rooms, prices, beds and what you offer (breakfast, WiFi, pool\u2026).","They can call, SMS, WhatsApp you or get directions, even without internet when the map is saved."],y.h)
-B.bAt=new A.fL([D.oD,"Travellers find you","Places with available rooms are shown first in each town.",B.b3R])
+B.bAt=new A.fL([D.oE,"Travellers find you","Places with available rooms are shown first in each town.",B.b3R])
 B.b_u=x(["A new booking, a proof of payment, a guest who arrived, a problem in a room or an order: you see it straight away.","When a receptionist is on shift, the alerts go to them; when nobody is on shift, they come to you.","Screens update by themselves: no need to refresh."],y.h)
-B.bAv=new A.fL([D.hs,"Live alerts","New bookings, proofs of payment and guests arriving.",B.b_u])
+B.bAv=new A.fL([D.ht,"Live alerts","New bookings, proofs of payment and guests arriving.",B.b_u])
 B.aaM=new A.a5(58090,"MaterialIcons",!1)
 B.aAi=x(["Every room is a big coloured button: green available, amber booked, teal occupied, red needs cleaning.","Tap an available room to book a walk-in guest and record the cash in one step.","Tap an occupied room to see the guest, take a payment or check them out.","Easy for everyone at the front desk, even without computer experience."],y.h)
 B.bAG=new A.fL([B.aaM,"Simple room board","Big buttons: available, occupied, cleaning. Walk-ins and cash in one tap.",B.aAi])
 B.b_B=x(["A booking is held for 6 hours (you can choose 1 to 48 hours). The guest calls you for your EFT or e-wallet details, or pays cash on arrival.",'The guest uploads a photo of the proof. You check your bank and tap "Money arrived" or "Not received".',"If the money did not arrive, the guest is told and you can message or call them.","Your bank details are saved once and locked: only NamStay Billing can change them, after checking it is really you."],y.h)
-B.bAw=new A.fL([D.ht,"Payments made easy",'Guests upload proof. You accept or say "not received". Your bank details are locked against fraud.',B.b_B])
+B.bAw=new A.fL([D.hu,"Payments made easy",'Guests upload proof. You accept or say "not received". Your bank details are locked against fraud.',B.b_B])
 B.bid=x(["Make one person the guesthouse manager: they see who is on shift, the shift history, guest feedback and the coach (not your money).","Type the receptionist's name and number: they get a WhatsApp invite with a code.","Choose what they may do: room board, bookings, walk-ins, cash, proofs, check-in and check-out.","They start and end their shift in the app, and you always see who is working.","One receptionist can work at more than one of your places."],y.h)
 B.bAI=new A.fL([D.fk,"Your manager and receptionists","Invite them by WhatsApp, choose a manager, see who is on shift.",B.bid])
 B.abq=new A.a5(58890,"MaterialIcons",!1)
 B.b02=x(["Register as many guesthouses, hotels or self-catering places as you have, in any town.","Switch between them at the top of the screen.","Each place has its own rooms, receptionists, bookings and money."],y.h)
 B.bAC=new A.fL([B.abq,"Many places, one account","Guesthouses in different towns, all in one app.",B.b02])
 B.b_s=x(["Money received today, this week and this month, split into cash, EFT and e-wallet.","Every guest in one list: paid, owing, inside now or coming.","Send a payment reminder in the app or by WhatsApp with one tap.","Only you see the money, not your receptionists and not the NamStay team."],y.h)
-B.bAE=new A.fL([E.wa,"Money and guest list","See money received per day, week and month, and who still owes.",B.b_s])
+B.bAE=new A.fL([E.wb,"Money and guest list","See money received per day, week and month, and who still owes.",B.b_s])
 B.bgt=x(["Add your logo, business name and VAT number once.","Guests download a proper PDF invoice or receipt for their stay.","Each month, download payments and bookings as an Excel file for Sage, Pastel, Xero or Odoo."],y.h)
-B.bAy=new A.fL([D.w7,"Invoices and your accountant","PDF invoices with your logo and VAT number; Excel export.",B.bgt])
+B.bAy=new A.fL([D.w8,"Invoices and your accountant","PDF invoices with your logo and VAT number; Excel export.",B.bgt])
 B.b17=x(['During the stay, guests tap "Not working", "Report damage" (with a photo) or "Order".',"Orders only appear if you have a shop, restaurant or breakfast; you can add a menu with prices.",'Your receptionist answers "Working on it" or "Done" and the guest is told.','Guests get a friendly "Is everything OK?" every morning and evening.'],y.h)
-B.bAF=new A.fL([D.hu,"Guest requests and orders","Guests report problems or damage and order from their room.",B.b17])
+B.bAF=new A.fL([D.hv,"Guest requests and orders","Guests report problems or damage and order from their room.",B.b17])
 B.b0B=x(["Switch on offers for the rooms you want, and set the lowest price you consider.","Travellers offer a price; you accept or say no with one tap.","If you accept, the room is held for the guest for 6 hours at that price."],y.h)
-B.bAB=new A.fL([D.ov,"Price offers (optional)","Let travellers offer a price for rooms you choose.",B.b0B])
+B.bAB=new A.fL([D.ow,"Price offers (optional)","Let travellers offer a price for rooms you choose.",B.b0B])
 B.bhD=x([B.bAH,B.bAu,B.bAz,B.bAt,B.bAv,B.bAG,B.bAw,B.bAI,B.bAC,B.bAE,B.bAy,B.bAF,B.bAB],A.ab("E<+(a5,f,f,y<f>)>"))
 B.bBB=new A.c2("How it works",null,null)
 B.X_=new A.rN(!0,!0,null,null)
 B.bIN=new A.G(!0,null,null,null,null,null,15,null,null,null,null,null,1.4,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.bOk=new A.x("I already have an account: log in",null,null,null,null,null,null,null,null,null,null)
 B.bOu=new A.x("For owners",null,null,null,null,null,null,null,null,null,null)
-B.bPF=new A.x("Fill your rooms and run your place from your phone.",null,D.iY,null,null,null,null,null,null,null,null)
-B.bRx=new A.x("Tap a feature to see how it works.",null,D.zM,null,null,null,null,null,null,null,null)
+B.bPF=new A.x("Fill your rooms and run your place from your phone.",null,D.iZ,null,null,null,null,null,null,null,null)
+B.bRx=new A.x("Tap a feature to see how it works.",null,D.zN,null,null,null,null,null,null,null,null)
 B.bSo=new A.x("Guesthouses, hotels and self-catering. First month free, then a small monthly subscription.",null,D.ac,null,null,null,null,null,null,null,null)})()};
-(a=>{a["NH+Rm4ZtEU99j39QCh6yVLEGmEU="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["A95M5fzNSbZ8GDCRGhQan3ouA2M="]=a.current})($__dart_deferred_initializers__);
