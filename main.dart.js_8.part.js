@@ -3317,7 +3317,7 @@ B.bL0.prototype={
 $1(d){return new A.dm(new B.bL_(this.a,this.b,this.c),null)},
 $S:11}
 B.bL_.prototype={
-$2(d,e){var x=null,w=A.j(A.C("Newest version on the server")+": 0.2.0 \xb7 "+this.b,x,x,x,x,x,x,x,x),v=A.j(A.C("This phone")+": 0.2.0 \xb7 104",x,x,x,x,C.cz,x,x,x),u=A.C("What's new (optional)"),t=this.a,s=y.p
+$2(d,e){var x=null,w=A.j(A.C("Newest version on the server")+": 0.2.0 \xb7 "+this.b,x,x,x,x,x,x,x,x),v=A.j(A.C("This phone")+": 0.2.0 \xb7 105",x,x,x,x,C.cz,x,x,x),u=A.C("What's new (optional)"),t=this.a,s=y.p
 t=A.dw(A.P(A.b([w,v,C.S,A.aq(x,C.N,!1,x,!0,C.C,x,A.ar(),this.c,x,x,x,x,x,2,A.as(x,x,x,x,x,x,x,x,!0,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,A.C("e.g. New: shop and stock, Money by date"),x,x,x,x,x,x,x,x,u,!0,!0,!1,x,x,x,x,x,x,x,x,x,x,x,x,x,x),C.B,!0,x,!0,x,!1,x,C.O,x,x,x,x,x,x,300,x,3,2,x,!1,"\u2022",x,x,x,x,x,!1,x,x,!1,x,!0,x,C.K,x,x,x,x,x,x,x,x,x,x,x,x,!0,C.H,x,C.P,x,x,x,x),A.fL(C.a0,x,new B.bKX(t,e),x,D.c0S,D.c1M,t.a)],s),C.Y,C.r,C.a2,0,C.x),x,C.B,x,x,x,C.Q)
 return A.cm(A.b([A.b5(C.aV,x,x,new B.bKY(d),x,x),A.b6(D.c7f,new B.bKZ(d),A.cg(C.U,x,x,x,x,x,x))],s),x,t,D.adY,D.c_x)},
 $S:29}
@@ -5312,4 +5312,4 @@ D.ce1=new A.H(!0,C.V,null,null,null,null,34,C.dd,null,null,null,null,null,null,n
 D.cea=new A.H(!0,C.V,null,null,null,null,36,C.al,null,8,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.cgz=new B.Bv(null)
 D.chV=new B.SI(null)})()};
-(a=>{a["pyB96aRQJIWdWyaVQWRhqG1E5j8="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["9P1kMf9i10ki+JbZZJo44vjlKhw="]=a.current})($__dart_deferred_initializers__);
